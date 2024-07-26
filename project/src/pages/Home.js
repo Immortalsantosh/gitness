@@ -39,7 +39,9 @@ const Home = () => {
   </div>
   <div  className='bg-black text-white' > <h1> hello sir </h1></div>
   <div className="border-glow  bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
-      <div className="relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
+      
+ 
+      <div className="relative bg-teal-900 col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
         <div className="flex flex-col md:flex-row items-center w-full h-full">
           {/* Left side text */}
           <div className="w-full md:w-1/2 p-8">
@@ -51,25 +53,25 @@ const Home = () => {
           </div>
 
           {/* Right side animation */}
-          <div className="relative w-full md:w-1/2 p-8 overflow-hidden h-full">
-            <div className="space-y-4 animate-scroll">
-              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
-                <span>feat: support mobile wallets</span>
+          <div className="relative w-full md:w-1/2 p-8  overflow-hidden h-full">
+            <div className="space-y-4  animate-scroll">
+              <div className="  p-2 flex items-center justify-between">
+                <span>feat: support mobile wallets <br/>22/01/2 </span>
                 <span className="text-green-500">✔</span>
               </div>
-              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+              <div className="  p-2 flex items-center justify-between">
                 <span>fix: handle declined transactions</span>
                 <span className="text-red-500">✖</span>
               </div>
-              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+              <div className="  p-2 flex items-center justify-between">
                 <span>feat: add card processing</span>
                 <span className="text-green-500">✔</span>
               </div>
-              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+              <div className=" p-2 flex items-center justify-between">
                 <span>test: cover existing refund logic</span>
                 <span className="text-green-500">✔</span>
               </div>
-              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+              <div className="  p-2 flex items-center justify-between">
                 <span>refactor: optimize payment history</span>
                 <span className="text-red-500">✖</span>
               </div>
@@ -77,6 +79,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+         
     </div>
   </>
   

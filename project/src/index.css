@@ -33,4 +33,7 @@ code {
   @apply animate-[scroll_8s_linear_infinite];
 }
 
+/* .bg-custom-gradient { */
+  /* @apply bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end; */
+/* } */
 
