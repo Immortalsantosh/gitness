@@ -18,7 +18,7 @@ const Home = () => {
       
       {/* //button  */}
       <div className="grid grid-cols-1 gap-4 w-[120px]  ml-16 pt-4">
-        <button className="bg-white  text-black border  font-bold px-3 py-2 rounded-full  hover:outline-cyan-50 ">
+        <button className="bg-white mt-4 text-black border  font-bold px-3 py-2 rounded-full  hover:outline-cyan-50 ">
         Get Started
         </button>
       </div>  
@@ -54,7 +54,7 @@ const Home = () => {
   
   <div className="border-glow  bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
         
-  <div className='flex flex-col  gap-y-4 md:gap-y-3.5 sm:gap-y-3 w-full'>
+  <div className='flex flex-col ml-16 gap-y-4 md:gap-y-3.5 sm:gap-y-3 w-full'>
   <span className='font-medium  tracking-wide text-blue-400 text-lg mb-2 opacity-90'> Code Hosting</span>
   <div className='flex justify-between items-center'>
     <h2 className='text-4xl w-full mb-6 flex font-bold tracking-wide opacity-90 lg:max-w-[620px]  md:max-w-[554px] md:text-40 sm:text-32 xs:text-28'>Familiar Git experience.<br/> Packed with essential features.</h2>
@@ -64,7 +64,7 @@ const Home = () => {
   </div>
 </div>
 
-      <div className="relative bg-black w-[1100px] ml-16 h-[400px] col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
+      <div className="relative rounded-md bg-[#1a1a1a] w-[1100px] ml-16 h-[400px] col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
         <div className="flex flex-col md:flex-row items-center w-full h-full">
           {/* Left side text */}
           <div className="w-full md:w-1/2 p-8">
@@ -107,8 +107,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        
       </div>
-     
+      <div className='hello bg-black '><h1> hello </h1></div>
     </div>
   </>
   
