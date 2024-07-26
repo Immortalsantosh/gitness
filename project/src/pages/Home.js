@@ -37,46 +37,47 @@ const Home = () => {
     </div>
     <Lottie animationData={animationData} className='bg-transparent pb-20 border-none w-[500px]  pt-[50px]'/>
   </div>
-  <div>
-  <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-      <div className="text-center mb-8">
-        <h1 className="text-5xl font-bold">Commit. Branch. Merge.</h1>
-        <p className="text-lg mt-4">Familiar Git experience. Packed with essential features.</p>
-        <button className="mt-4 px-6 py-2 bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300">
-          Get started
-        </button>
-      </div>
+  <div  className='bg-black text-white' > <h1> hello sir </h1></div>
+  <div className="border-glow  bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
+      <div className="relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
+        <div className="flex flex-col md:flex-row items-center w-full h-full">
+          {/* Left side text */}
+          <div className="w-full md:w-1/2 p-8">
+            <div className="text-center md:text-left">
+              <h1 className="text-8xl font-bold">Commit.</h1>
+              <h1 className="text-8xl font-bold">Branch.</h1>
+              <h1 className="text-8xl font-bold">Merge.</h1>
+            </div>
+          </div>
 
-      {/* Right side animation */}
-      <div className="relative">
-        <div className="overflow-hidden h-64">
-          <div className="space-y-4 animate-scroll">
-            <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
-              <span>feat: support mobile wallets</span>
-              <span className="text-green-500">✔</span>
-            </div>
-            <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
-              <span>fix: handle declined transactions</span>
-              <span className="text-red-500">✖</span>
-            </div>
-            <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
-              <span>feat: add card processing</span>
-              <span className="text-green-500">✔</span>
-            </div>
-            <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
-              <span>test: cover existing refund logic</span>
-              <span className="text-green-500">✔</span>
-            </div>
-            <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
-              <span>refactor: optimize payment history</span>
-              <span className="text-red-500">✖</span>
+          {/* Right side animation */}
+          <div className="relative w-full md:w-1/2 p-8 overflow-hidden h-full">
+            <div className="space-y-4 animate-scroll">
+              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+                <span>feat: support mobile wallets</span>
+                <span className="text-green-500">✔</span>
+              </div>
+              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+                <span>fix: handle declined transactions</span>
+                <span className="text-red-500">✖</span>
+              </div>
+              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+                <span>feat: add card processing</span>
+                <span className="text-green-500">✔</span>
+              </div>
+              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+                <span>test: cover existing refund logic</span>
+                <span className="text-green-500">✔</span>
+              </div>
+              <div className="bg-gray-800 rounded p-2 flex items-center justify-between">
+                <span>refactor: optimize payment history</span>
+                <span className="text-red-500">✖</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
   </>
   
  

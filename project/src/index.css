@@ -30,7 +30,7 @@ code {
   100% { transform: translateY(-100%); }
 }
 .animate-scroll {
-  @apply animate-[scroll_10s_linear_infinite];
+  @apply animate-[scroll_8s_linear_infinite];
 }
 
 
