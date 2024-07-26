@@ -25,15 +25,35 @@ code {
 }
 
 
+.svg-container {
+  overflow-x: hidden;
+}
+
+.svg-path {
+  animation: scrollX 30s linear infinite;
+}
+
+@keyframes scrollX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+ 
+
+}
+
 @keyframes scroll {
   0% { transform: translateY(0); }
   100% { transform: translateY(-100%); }
 }
 .animate-scroll {
-  @apply animate-[scroll_8s_linear_infinite];
+  @apply animate-[scroll_10s_linear_infinite];
 }
 
-/* .bg-custom-gradient { */
-  /* @apply bg-gradient-to-r from-gradient-start via-gradient-mid to-gradient-end; */
-/* } */
-
+@layer utilities{
+  .paused{
+    animation-play-state: paused;
+  }
+}
