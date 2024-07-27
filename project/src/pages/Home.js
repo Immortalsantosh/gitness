@@ -1,11 +1,21 @@
 import React from 'react'
 import Lottie from 'lottie-react'
+import Feature from './Feature'
 import animationData from '../assests/Animation - 4.json'
 import CircularImage from './CircularImage'
+
+
 import Image from '../assests/image/male-24.jpg'
 import Image1 from '../assests/image/male-70.jpg'
 import Image2 from '../assests/image/male-72.jpg'
 import video from '../assests/videos/coding.mp4'
+
+import icons1 from '../assests/icons/pull.svg'
+import icons2 from '../assests/icons/compare.svg'
+import icons3 from '../assests/icons/browser-code.svg'
+import icons4 from '../assests/icons/quality-gate.svg'
+import icons5 from '../assests/icons/webhook.svg'
+import icons6 from '../assests/icons/protected.svg'
 
 const Home = () => {
   return (
@@ -58,13 +68,13 @@ const Home = () => {
   <span className='font-medium  tracking-wide text-blue-400 text-lg mb-2 opacity-90'> Code Hosting</span>
   <div className='flex justify-between items-center'>
     <h2 className='text-4xl w-full mb-6 flex font-bold tracking-wide opacity-90 lg:max-w-[620px]  md:max-w-[554px] md:text-40 sm:text-32 xs:text-28'>Familiar Git experience.<br/> Packed with essential features.</h2>
-    <button className="bg-white mr-40 text-black px-6 py-3 rounded-full mb-5 font-semibold">
+    <button className=" text-shadow-md bg-black  mr-40 text-white border px-6 py-2 rounded-full mb-5 font-semibold">
       Get started
     </button>
   </div>
 </div>
-
-      <div className="relative rounded-md bg-[#1a1a1a] w-[1100px] ml-16 h-[400px] col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
+       
+      <div className=" custom-gradient relative rounded-md  w-[1100px] ml-16 h-[400px] col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
         <div className="flex flex-col md:flex-row items-center w-full h-full">
           {/* Left side text */}
           <div className="w-full md:w-1/2 p-8">
@@ -78,7 +88,7 @@ const Home = () => {
           {/* Right side animation */}
          
           <div className="relative  w-full md:w-1/2 p-8  overflow-hidden h-full">
-            <div className="space-y-4 animate-scroll">
+            <div className="space-y-4 container animate-scroll">
               <div className="p-2 flex items-center   opacity-80 justify-between">
               <CircularImage src={Image} alt="Description of the image" />
                 <span className='mr-[150px] opacity-80 hover:opacity-100 cursor-pointer'>feat: support mobile wallets <br/>22/01/20</span>
@@ -107,18 +117,16 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        
       </div>
-      <div className="bg-black text-white min-h-screen flex items-center justify-center p-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
-        <div className="bg-gray-800 rounded-lg p-6 flex items-center justify-center">
-          <video controls className="rounded-lg w-full">
-            <source src={video} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+      <div className="bg-black text-white  flex items-center justify-center p-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8  max-w-6xl h-96 mr-4">
+        <div className="bg-black  rounded-lg p-6 flex items-center justify-center">
+          
+     <video autoPlay loop muted  className="rounded-lg w-full h-full object-cover">
+    <source src={video}  type="video/mp4" />Your browser does not support the video tag. </video>
+        
         </div>
-        <div className="bg-gray-800 rounded-lg p-6 flex items-center justify-center">
+        <div className="bg-black rounded-lg p-6 flex items-center justify-center">
           {/* Animation or any other content */}
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4">Security. Powerful enforcement.</h2>
@@ -128,6 +136,45 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </div>
+
+    <div className='bg-black text-white'>
+    <Feature/>
+    </div >
+    <div className='bg-black text-white'>
+    <section className='mt-28 lg:mt-[98px] md:mt-20 sm:mt-[53px] container gap-x-grid grid grid-cols-12'>
+      <h2 className='col-span-5 col-start-2 text-34 font-light leading-snug lg:col-span-7 md:text-28 sm:col-span-full sm:text-24'>A complete solution for engineering teams of all sizes.</h2>
+      <ul className='col-span-9 col-start-2 mt-10 flex flex-wrap gap-6 lg:col-span-11 md:mt-8 md:gap-5 sm:col-span-full sm:mt-7 sm:gap-3 xs:gap-2.5'>
+        <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons1}></img>
+        <span className='leading-none sm:text-14'>Pull requests</span>
+        </li>
+        <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons2}></img>
+        <span className='leading-none sm:text-14'>Compare revisions</span>
+        </li>
+        <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons3}></img>
+        <span className='leading-none sm:text-14'>Browse code</span>
+        </li>
+        <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons4}></img>
+        <span className='leading-none sm:text-14'>Quality Gates</span>
+        </li>
+        <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons5}></img>
+        <span className='leading-none sm:text-14'>Webhooks</span>
+        </li>
+        <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons6}></img>
+        <span className='leading-none sm:text-14'>Protected branches</span>
+        </li>
+        <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons3}></img>
+        <span className='leading-none sm:text-14'>Notifications and alerts</span>
+        </li>
+      </ul>
+    </section>
     </div>
   </>
   
