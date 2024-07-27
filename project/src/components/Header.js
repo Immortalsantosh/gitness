@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     
-      <header className="h-12  bg-black w-full  z-40">
+      <header className="h-12  bg-grey-2 bg-black w-full  z-40">
         <div className="h-full container mx-auto flex items-center px-4 justify-between ">
           <div className="">
             <Link to={"/"}>
@@ -28,7 +28,7 @@ function Header() {
           </div>
 
           <div className="flex justify-center items-start w-80  text-white">
-            <button className="hover:opacity-100 bg-transparent rounded-full px-3 py-1 opacity-80 border hover:text-blue-300">
+            <button className="hover:opacity-100  bg-grey-2 bg-transparent rounded-full px-3 py-1 opacity-80 border hover:text-blue-300">
               Get Started
             </button>
           </div>

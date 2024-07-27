@@ -60,17 +60,36 @@ code {
 
 .custom-gradient {
   background: hsla(115, 9%, 28%, 1);
-
   background: linear-gradient(288deg, hsla(115, 9%, 28%, 1) 0%, hsla(0, 0%, 0%, 1) 32%);
-  
-  background: -moz-linear-gradient(288deg, hsla(115, 9%, 28%, 1) 0%, hsla(0, 0%, 0%, 1) 32%);
-  
   background: -webkit-linear-gradient(288deg, hsla(115, 9%, 28%, 1) 0%, hsla(0, 0%, 0%, 1) 32%);
-  
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#424E41", endColorstr="#000000", GradientType=1 );
 }
 .text-shadow-md {
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
+.bg-pipelines {
+  background-image: radial-gradient(91.62% 38.88% at 1.4% 4.24%, rgba(112, 220, 211, .1) 0, transparent 100%), radial-gradient(21.88% 21.86% at 80.72% 42.34%, rgba(7, 7, 9, .45) 6.77%, transparent 100%), radial-gradient(24.02% 75.21% at 54.85% 37.73%, rgba(112, 220, 211, .2) 5%, transparent 100%);
+}
+.bg-grey-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 14 18 / var(--tw-bg-opacity));
+}
+.pipelines-title {
+  background-image: url(./assests/bg/noise), linear-gradient(127.94deg, #80b7cc, #6686a0 44.2%, #566b80 67.71%, #7398ad);
+  background-size: 200px, 100%;
+}
+
+.git-experience-title, .pipelines-title {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.border-glow {
+  --radius: 16px;
+  position: relative;
+  border-radius: var(--radius);
+}
+
 
 
