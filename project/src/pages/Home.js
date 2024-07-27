@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from 'lottie-react'
-import Feature from './Feature'
+// import Feature from './Feature'
 import animationData from '../assests/Animation - 4.json'
 import CircularImage from './CircularImage'
 
@@ -16,6 +16,8 @@ import icons3 from '../assests/icons/browser-code.svg'
 import icons4 from '../assests/icons/quality-gate.svg'
 import icons5 from '../assests/icons/webhook.svg'
 import icons6 from '../assests/icons/protected.svg'
+import icons7 from '../assests/icons/notification.svg'
+
 
 const Home = () => {
   return (
@@ -137,14 +139,10 @@ const Home = () => {
       </div>
     </div>
     </div>
-
-    <div className='bg-black text-white'>
-    <Feature/>
-    </div >
-    <div className='bg-black text-white'>
-    <section className='mt-28 lg:mt-[98px] md:mt-20 sm:mt-[53px] container gap-x-grid grid grid-cols-12'>
-      <h2 className='col-span-5 col-start-2 text-34 font-light leading-snug lg:col-span-7 md:text-28 sm:col-span-full sm:text-24'>A complete solution for engineering teams of all sizes.</h2>
-      <ul className='col-span-9 col-start-2 mt-10 flex flex-wrap gap-6 lg:col-span-11 md:mt-8 md:gap-5 sm:col-span-full sm:mt-7 sm:gap-3 xs:gap-2.5'>
+    <div className='bg-black h-64 text-white'>
+    <section className=' ml-[168px]  text-md w-[904px] h-full lg:mt-[0px] md:mt-20 sm:mt-[53px] container gap-x-grid grid grid-cols-12'>
+      <h2 className='col-span-5 col-start-2  text-4xl  font-light leading-snug lg:col-span-7  sm:col-span-full '>A complete solution for <br/> engineering teams of all sizes.</h2>
+      <ul className=' col-span-9 h-[114px] col-start-2 mt-15 flex flex-wrap gap-6 lg:col-span-11 md:mt-8 md:gap-5 sm:col-span-full sm:mt-7 sm:gap-3 xs:gap-2.5'>
         <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
         <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons1}></img>
         <span className='leading-none sm:text-14'>Pull requests</span>
@@ -170,12 +168,21 @@ const Home = () => {
         <span className='leading-none sm:text-14'>Protected branches</span>
         </li>
         <li className='flex h-12 items-center gap-x-3.5 rounded-full border border-white border-opacity-[0.13] px-[21px] md:h-11 md:gap-5 md:gap-x-3 md:px-5 sm:h-8 sm:gap-x-2.5 sm:px-[11px]'>
-        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons3}></img>
+        <img className='h-6 w-6 sm:h-5 sm:w-5 ' alt=" "src={icons7}></img>
         <span className='leading-none sm:text-14'>Notifications and alerts</span>
         </li>
       </ul>
     </section>
     </div>
+    <div className='flex flex-col min-h-screen  bg-black text-white gap-y-4 md:gap-y-3.5 sm:gap-y-3 w-full'>
+  <span className='font-medium  tracking-wide text-blue-400 text-lg mb-2 opacity-90'> Code Hosting</span>
+  <div className='flex justify-between items-center'>
+    <h2 className='text-4xl w-full mb-6 flex font-bold tracking-wide opacity-90 lg:max-w-[620px]  md:max-w-[554px] md:text-40 sm:text-32 xs:text-28'>Familiar Git experience.<br/> Packed with essential features.</h2>
+    <button className=" text-shadow-md bg-black  mr-40 text-white border px-6 py-2 rounded-full mb-5 font-semibold">
+      Get started
+    </button>
+  </div>
+</div>
   </>
   
  
