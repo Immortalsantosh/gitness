@@ -210,7 +210,7 @@ const Home = () => {
 </div>
 
 {/* two container */}
-<div className="  .bg-grey-2  text-white h-[480px] flex items-center justify-center p-12 space-x-16">
+<div className="  bg-grey-2  text-white h-[480px] flex items-center justify-center p-12 space-x-16">
   <div className="border-glow col-span-6 mt-8 grid grid-cols-1 grid-rows-1 overflow-hidden  lg:mt-6 md:mt-4.5 sm:col-span-full bg-gray-800 sm:mt-4 w-full h-full rounded-lg  flex-col items-center justify-center p-4">
     <div className="flex items-start justify-center w-full">
       <h3 className="text-white text-xl font-bold mb-2 text-center">Integrations</h3>
