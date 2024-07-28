@@ -4,6 +4,7 @@ import Lottie from 'lottie-react'
 import animationData from '../assests/Animation - 4.json'
 import CircularImage from './CircularImage'
 
+import pipeline from '../assests/bg/pipeline.png'
 
 import Image from '../assests/image/male-24.jpg'
 import Image1 from '../assests/image/male-70.jpg'
@@ -185,9 +186,20 @@ const Home = () => {
   </div>
   <div className='bg-grey-2 mt-4'>
 <div className='col-span-full  mt-16 lg:mt-14 md:mt-11 sm:mt-8'>
-  <div className='border-glow relative overflow-hidden bg-grey-2 bg-pipelines pb-[98px] pl-14 pt-[104px] lg:pb-[72px] lg:pl-[58px] lg:pt-24 md:py-[45px] md:pl-11 sm:min-h-[488px] sm:px-5 sm:pb-4.5 sm:pt-5'>
-       <div className='relative z-30'>
-        <p className='pipelines-title relative mb-5 max-w-[300px] pb-3 font-titles text-[88px] font-semibold leading-none tracking-wide lg:text-[72px] md:mb-4 md:max-w-[256px] md:pb-3 md:text-[56px] sm:mb-4 sm:max-w-none sm:pb-2 sm:text-[52px] xs:text-[48px]'>Build.<br/>Test. <br/>Deploy.</p>
+  <div className='border-glow relative overflow-hidden bg-grey-2 bg-pipelines ml-[67px] pb-[98px] pl-14 pt-[104px] lg:pb-[72px] lg:pl-[58px] lg:pt-24 md:py-[45px] md:pl-11 sm:min-h-[488px] sm:px-5 sm:pb-4.5 sm:pt-5'>
+       <div className='relative pl-[142px]  z-30'>
+       
+        <p className='pipelines-title relative mb-5 ml-[-141px] max-w-[300px] pb-3 font-titles  text-[88px] font-bold leading-none tracking-wide lg:text-[72px] md:mb-4 md:max-w-[299px] md:pb-3 md:text-[56px] sm:mb-4 sm:max-w-none sm:pb-2 sm:text-[52px] xs:text-[48px]'>Build.<br/>Test. <br/>Deploy.</p>
+       
+        <button className=' inline-flex ml-[-141px]  justify-center  duration-300 text-grey-94 hover:text-grey-80 transition-shadow items-center gap-2 rounded-full bg-white h-11 px-[22px] text-16 font-medium leading-snug tracking-tighter !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:text-14 md:h-10 md:px-4.5 relative z-10'>Get Started</button>
+       </div>
+       <div className='absolute left-[439px] top-0 z-0 w-[777px] ml-[450px] lg:left-[358px] lg:w-[660px] md:left-[293px] md:w-[467px] sm:relative sm:left-auto sm:top-auto sm:-ml-[5px] sm:-mt-[340px] sm:w-[123%]'>
+        <span className='absolute left-1/2 top-0 h-full w-px  aria-hidden="true"'></span>
+         <div className="aspect-[1.4336] !h-auto !w-full">
+        <div className='h-full w-full'>
+          <img  className=' align-middle align-top; w-[777px]  h-[542px]'alt="" src={pipeline}></img>
+        </div>
+        </div>
        </div>
   </div>
 </div>
