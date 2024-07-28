@@ -4,12 +4,15 @@ import Lottie from 'lottie-react'
 import animationData from '../assests/Animation - 4.json'
 import CircularImage from './CircularImage'
 
-import pipeline from '../assests/bg/pipeline.png'
+import pipeline from '../assests/bg/download.png'
 
 import Image from '../assests/image/male-24.jpg'
 import Image1 from '../assests/image/male-70.jpg'
 import Image2 from '../assests/image/male-72.jpg'
 import video from '../assests/videos/coding.mp4'
+
+// import icons8 from '../assests/icons/Direction.svg'
+// import icons9 from '../assests/icons/render.svg'
 
 import icons1 from '../assests/icons/pull.svg'
 import icons2 from '../assests/icons/compare.svg'
@@ -184,6 +187,7 @@ const Home = () => {
     </div>
     <p className='max-w-[490px]  font-light opacity-80 text-grey-70 md:text-[20px]'>Gitness provides a fully integrated CI/CD engine that is <br/> big on features and light on learning curve.</p>
   </div>
+
   <div className='bg-grey-2 mt-4'>
 <div className='col-span-full  mt-16 lg:mt-14 md:mt-11 sm:mt-8'>
   <div className='border-glow relative overflow-hidden bg-grey-2 bg-pipelines ml-[67px] pb-[98px] pl-14 pt-[104px] lg:pb-[72px] lg:pl-[58px] lg:pt-24 md:py-[45px] md:pl-11 sm:min-h-[488px] sm:px-5 sm:pb-4.5 sm:pt-5'>
@@ -201,10 +205,60 @@ const Home = () => {
         </div>
         </div>
        </div>
+       <span className="noise pointer-events-none absolute inset-0 opacity-[0.15]"></span>
   </div>
 </div>
+
+{/* two container */}
+<div className="  .bg-grey-2  text-white h-[480px] flex items-center justify-center p-12 space-x-16">
+  <div className="border-glow col-span-6 mt-8 grid grid-cols-1 grid-rows-1 overflow-hidden  lg:mt-6 md:mt-4.5 sm:col-span-full bg-gray-800 sm:mt-4 w-full h-full rounded-lg  flex-col items-center justify-center p-4">
+    <div className="flex items-start justify-center w-full">
+      <h3 className="text-white text-xl font-bold mb-2 text-center">Integrations</h3>
+    </div>
+    {/* SVG or Image for Integrations */}
+    <div className="mb-4">
+      <img src="/path/to/integrations-icon.svg" alt="Integrations" className="w-16 h-16" />
+    </div>
+    <p className="text-gray-400 text-center">
+      Publish, deploy, notify, report - Gitness integrates with your favorite tools. Create custom integrations with ease and share with the community.
+    </p>
+  </div>
+
+  <div className="w-full h-full bg-gray-800 rounded-lg flex flex-col items-center justify-center p-4">
+    {/* SVG or Image for Migrations */}
+    <div className="mb-4">
+      <img src="/path/to/migrations-icon.svg" alt="Migrate" className="w-16 h-16" />
+    </div>
+    <h3 className="text-white text-xl font-bold mb-2 text-center">One-click migrations</h3>
+    <p className="text-gray-400 text-center">
+      With a single click, Gitness can automatically migrate code repositories and pipelines from GitHub, GitLab, Bitbucket, Circle, and more.
+    </p>
+  </div>
+</div>
+
+
+
 </div>
 </div>
+
+
+<section className="py-[400px] bg-grey-2 lg:py-[315px] md:py-[270px] sm:py-36 xs:py-28 relative overflow-hidden">
+<div className='container gap-x-grid grid grid-cols-12'>
+  <h2 className="col-span-7 col-start-2 -ml-2 pb-10 pl-2 font-titles text-[96px] font-semibold leading-none text-white lg:col-span-8 lg:col-start-1 lg:text-[80px] md:col-span-11 md:pb-8 md:text-[72px] sm:col-span-full sm:pb-7 sm:text-[56px] xs:text-[48px]">Your Code <br/> Your Language <br/> Your Platform</h2>
+  <p className='col-span-7 col-start-2 max-w-[623px] text-[24px] font-light lg:col-span-8 lg:col-start-1 md:col-span-9 md:text-[20px] text-white sm:col-span-full'>Packing the power of robust code hosting, seamless collaboration through code reviews, and flexible pipelines for any language. All with the security and governance policies developers need to write and deliver code with confidence.</p>
+  <d1 className="col-span-4 col-start-2 mt-14 lg:col-span-5 lg:col-start-1 md:col-span-7 md:mt-11 sm:col-span-full">
+    <dt className='mt-10 flex text-white flex-col items-start gap-3 text-[20px] font-medium leading-normal first:mt-0 md:mt-9 md:text-[18px] sm:mt-7'>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height={24}  Weight={24} viewBox="0 0 24 24"><g clip-path="url(#agnostic_svg__a)"><path fill="url(#agnostic_svg__b)" fill-rule="evenodd" d="M11.646.644a.499.499 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L12.5 2.205v5.322a4.502 4.502 0 0 1 3.972 3.971h5.32l-2.146-2.146a.5.5 0 0 1 .708-.708l3 3a.499.499 0 0 1 .146.354V12.024a.496.496 0 0 1-.146.328l-3 3a.5.5 0 0 1-.708-.707l2.147-2.147h-5.32a4.502 4.502 0 0 1-3.973 3.975v5.318l2.146-2.146a.5.5 0 0 1 .708.707l-3 3a.5.5 0 0 1-.354.146H11.974a.5.5 0 0 1-.328-.146l-3-3a.5.5 0 1 1 .708-.707L11.5 21.79v-5.319a4.502 4.502 0 0 1-3.973-3.974h-5.32l2.147 2.147a.5.5 0 1 1-.708.707l-3-3a.498.498 0 0 1 0-.707l3-3a.5.5 0 1 1 .708.707l-2.147 2.146h5.32a4.502 4.502 0 0 1 3.973-3.97V2.204L9.354 4.352a.5.5 0 1 1-.708-.708l3-3Zm.396 14.856a.481.481 0 0 0-.084 0 3.5 3.5 0 1 1 .084 0Z" clip-rule="evenodd"/></g><defs><linearGradient id="agnostic_svg__b" x1="12" x2="12" y1=".498" y2="23.498" gradientUnits="userSpaceOnUse"><stop stop-color="#C59FDF"/><stop offset="1" stop-color="#AD79D2"/></linearGradient><clipPath id="agnostic_svg__a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+    Vendor agnostic</dt>
+    <dd className='mt-1.5 text-[18px] font-light leading-snug text-white md:max-w-[305px] md:text-[16px]'>Create pipelines for GitHub, GitLab, Bitbucket, Azure, and more.</dd>
+    <dt className='mt-10 text-white flex flex-col items-start gap-3 text-[20px] font-medium leading-normal first:mt-0 md:mt-9 md:text-[18px] sm:mt-7'>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height={24}  Weight={24} viewBox="0 0 24 24"><g clip-path="url(#agnostic_svg__a)"><path fill="url(#agnostic_svg__b)" fill-rule="evenodd" d="M11.646.644a.499.499 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L12.5 2.205v5.322a4.502 4.502 0 0 1 3.972 3.971h5.32l-2.146-2.146a.5.5 0 0 1 .708-.708l3 3a.499.499 0 0 1 .146.354V12.024a.496.496 0 0 1-.146.328l-3 3a.5.5 0 0 1-.708-.707l2.147-2.147h-5.32a4.502 4.502 0 0 1-3.973 3.975v5.318l2.146-2.146a.5.5 0 0 1 .708.707l-3 3a.5.5 0 0 1-.354.146H11.974a.5.5 0 0 1-.328-.146l-3-3a.5.5 0 1 1 .708-.707L11.5 21.79v-5.319a4.502 4.502 0 0 1-3.973-3.974h-5.32l2.147 2.147a.5.5 0 1 1-.708.707l-3-3a.498.498 0 0 1 0-.707l3-3a.5.5 0 1 1 .708.707l-2.147 2.146h5.32a4.502 4.502 0 0 1 3.973-3.97V2.204L9.354 4.352a.5.5 0 1 1-.708-.708l3-3Zm.396 14.856a.481.481 0 0 0-.084 0 3.5 3.5 0 1 1 .084 0Z" clip-rule="evenodd"/></g><defs><linearGradient id="agnostic_svg__b" x1="12" x2="12" y1=".498" y2="23.498" gradientUnits="userSpaceOnUse"><stop stop-color="#C59FDF"/><stop offset="1" stop-color="#AD79D2"/></linearGradient><clipPath id="agnostic_svg__a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+    Platform agnostic</dt>
+    <dd className='mt-1.5 text-[18px] font-light leading-snug text-white md:max-w-[305px] md:text-[16px]'>Build pipelines for any language or platform. Works with Linux, Windows and Mac.
+    </dd>
+  </d1>
+</div>
+</section>
 
 
 

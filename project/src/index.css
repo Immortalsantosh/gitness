@@ -92,4 +92,16 @@ code {
 }
 
 
+.noise {
+  background-position: 50%;
+  background-repeat: repeat;
+  background-image: url(./assests/bg/noise@2x.png);
+  background-size: 140px 100px;
+}
+
+.text-grey-70 {
+  --tw-text-opacity: 1;
+  color: rgb(173 176 185 / var(--tw-text-opacity));
+}
+
 
