@@ -14,6 +14,9 @@ import video from '../assests/videos/coding.mp4'
 import light1 from '../assests/bg/light3.png'
 import x from '../assests/bg/image02.jpg'
 
+// java all logo
+
+
 
 import icons1 from '../assests/icons/pull.svg'
 import icons2 from '../assests/icons/compare.svg'
@@ -22,6 +25,8 @@ import icons4 from '../assests/icons/quality-gate.svg'
 import icons5 from '../assests/icons/webhook.svg'
 import icons6 from '../assests/icons/protected.svg'
 import icons7 from '../assests/icons/notification.svg'
+
+import java from '../assests/icons/JAVA.svg'
 
 
 const Home = () => {
@@ -282,16 +287,77 @@ const Home = () => {
 
  </section>
 
-<section className=' bg-grey-2 mt-12 lg:mt-9 md:mt-12 sm:mt-14 container gap-x-grid grid grid-cols-12 gap-y-[72px] lg:gap-y-14 md:gap-y-11 sm:gap-y-8'>
+<section className=' bg-grey-2 mt-12 lg:mt-9 relative top-[-84px] md:mt-12 sm:mt-14 container max-w-[1343px] gap-x-2.5 grid grid-cols-12 gap-y-[72px] lg:gap-y-14 md:gap-y-11 sm:gap-y-8'>
 <header className='col-span-8 col-start-2 ml-[173px] flex flex-col items-start gap-4 lg:col-span-12 lg:col-start-1 md:gap-4 sm:gap-3'>
-
-  <span className='text-[16px] font-medium leading-1.125 tracking-wide text-shades-purple-85 opacity-90'>YAML </span>
-  <h2 className='font-titles text-64 font-semibold leading-normal tracking-wider lg:text-[56px] md:text-[44px] sm:text-[36px] xs:text-[32px]'>Templatize  <br/> and standardize</h2>
+  <span className='text-[16px] font-medium leading-normal tracking-wide text-[#b2c6ff] opacity-100'>YAML </span>
+  <h2 className=' text-[64px] text-white font-semibold leading-normal tracking-wider lg:text-[56px] md:text-[44px] sm:text-[36px] xs:text-[32px]'>Templatize  <br/> and standardize</h2>
   <div className='flex items-end self-stretch sm:flex-col sm:items-start'>
     <p className='max-w-[485px] text-[18px] font-light text-grey-70 md:max-w-[423px] md:text-[16px] sm:max-w-full'>We created hundreds of re-usable pipeline templates so that you don't have to.</p>
-    <span className='relative z-40'>try it</span>
+   
+    <button className=" ml-[600px] mt-[-30px]  bg-grey-2 text-shadow-md bg-black  mr-40 text-white border px-6 py-2 rounded-full mb-5 font-semibold">
+      Try it now
+    </button>
+      
   </div>
 </header>
+<div className='gap-x-grid col-span-full grid auto-rows-fr grid-cols-4 gap-y-8 lg:grid-cols-3 lg:gap-y-6 md:gap-y-4.5 sm:grid-cols-1 sm:gap-y-4'>
+<a className='z-0  justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5' href='www.google.com'>
+  <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
+  <div className='flex h-16 items-center md:h-14 xs:h-12'>
+    <div className='relative'>
+    <img alt='java' width="49" height="64" src={java} className="h-[64px] w-[49px] md:h-[56px] md:w-[42px] xs:h-[48px] xs:w-[36px]"></img>
+    </div>
+  </div>
+  <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Java</h3>
+  <p className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'> Build and Test your Java applications</p>
+  <span className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
+  </span>
+</a>
+{/* GOLANG */}
+<a  href =" wwww.google.com"className="z-0 inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
+  <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
+  <div className="flex h-16 items-center md:h-14 xs:h-12">
+    <div className='relative'>
+      <img alt='go' src={java} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
+    </div>
+  </div>
+  <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Golang</h3>
+  <p  className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'>Build and Test your Go applications and modules</p>
+  <span  className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
+  </span>
+</a>
+
+<a  href =" wwww.google.com"className="z-0 inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
+  <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
+  <div className="flex h-16 items-center md:h-14 xs:h-12">
+    <div className='relative'>
+      <img alt='go' src={java} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
+    </div>
+  </div>
+  <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Golang</h3>
+  <p  className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'>Build and Test your Go applications and modules</p>
+  <span  className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
+  </span>
+</a>
+
+<a  href =" wwww.google.com"className="z-0 inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
+  <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
+  <div className="flex h-16 items-center md:h-14 xs:h-12">
+    <div className='relative'>
+      <img alt='go' src={java} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
+    </div>
+  </div>
+  <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Golang</h3>
+  <p  className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'>Build and Test your Go applications and modules</p>
+  <span  className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
+  </span>
+</a>
+</div>
+
 </section>
 
 
