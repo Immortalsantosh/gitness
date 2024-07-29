@@ -104,7 +104,7 @@ code {
   color: rgb(173 176 185 / var(--tw-text-opacity));
 }
 
-.-translate-x-1\/2, .-translate-x-px {
+.-translate-x-px {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -120,3 +120,18 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   left: calc(50% + 187px);
 }
 
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+}
+
+.lg\:left-\[calc\(50\%\+187px\)\] {
+  @apply left-[calc(50%_+_187px)];
+}
+
+.ok {
+  background-position: 50%;
+  background-repeat: repeat;
+  background-image: url(./assests/bg/ok.png);
+  background-size: 140px 100px;
+}

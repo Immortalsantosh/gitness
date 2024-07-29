@@ -11,7 +11,8 @@ import Image1 from '../assests/image/male-70.jpg'
 import Image2 from '../assests/image/male-72.jpg'
 import video from '../assests/videos/coding.mp4'
 
-import light1 from '../assests/bg/light.jpg'
+import light1 from '../assests/bg/light3.png'
+import x from '../assests/bg/image02.jpg'
 
 
 import icons1 from '../assests/icons/pull.svg'
@@ -257,13 +258,41 @@ const Home = () => {
     <dd className='mt-1.5 text-[18px] font-light ml-32 leading-snug text-white md:max-w-[305px] md:text-[16px]'>Build pipelines for any language or platform. Works with Linux, Windows and Mac.
     </dd>
   </d1>
+  <div className="col-span-4 bg-transparent col-start-10 absolute top-[68px] left-[calc(50%+292px)] w-[1024px] -translate-x-1/2 lg:left-[calc(50%+187px)] lg:top-0 lg:w-[947px] md:left-[calc(50%+200px)] md:top-8" >
+    <span className='noise absolute inset-0 opacity-[0.04] bg-transparent mix-blend-overlay'></span>
+        <img src={light1}  alt="Descriptive Alt Text"    className="w-full h-auto  object-cover" />
+      </div>
 </div>
-<div className='absolute left-[calc(50%+292px)] top-[68px] z-[-1] w-[1024px] -translate-x-1/2 lg:left-[calc(50%+187px)] lg:top-12 lg:w-[947px] md:left-[calc(50%+200px)] md:top-8 md:w-[816px] sm:hidden'>
-<span className="noise absolute inset-0 opacity-[0.04] mix-blend-overlay" ></span>
-<img   width="1024" height="1056" decoding="async" data-nimg="1" className='w-[1024px] h-[1056px] bg-transparent ' alt="" src={light1}></img>
-</div>
-</section>
+ </section>
 
+ <section className='mt-1 bg-grey-2 lg:mt-12 md:mt-2.5 top-[-48px] sm:mt-0 relative overflow-hidden'>
+  <header className='container ml-[20px] top-[129px] relative z-10 grid grid-cols-12 gap-y-4 md:gap-y-3.5 sm:gap-y-3'>
+    <span className='col-span-full text-center font-medium  tracking-wide leading-normal text-orange-500 opacity-80'>Performance</span>
+    <h3 className='col-span-6 col-start-4 text-center text-white text-[64px] font-bold leading-normal tracking-tight  opacity-90 lg:text-[56px] md:col-span-8 md:col-start-3 md:text-[44px] sm:col-span-full sm:text-[36px] xs:text-[32px]'>Up to 4x faster <br/> pipeline execution</h3>
+    <p className='col-span-full mx-auto max-w-[670px] text-center text-18 font-light text-grey-70 md:text-16'>Reduce pipeline execution up to 90% with intelligent test selection and caching.<br/> Powered by advanced instrumentation and call graph analysis.</p>
+  </header>
+    <span className='absolute -top-0 left-1/2 h-full w-px' aria-hidden="true"></span>
+    <div className='relative left-1/2 z-0 -mb-[180px] -mt-[108px] w-[1370px] -translate-x-1/2 lg:-mb-[152px] lg:-mt-24 lg:w-[1224px] md:-mb-[118px] md:-mt-[42px] md:w-[930px] sm:-mb-[88px] sm:w-[120%] sm:min-w-[600px] xs:-mt-4 xs:w-auto  aspect-[1.58127] [&_canvas]:!h-auto [&_canvas]:!w-full' aria-hidden="true">
+    <div className='w-full h-full'>
+      <img  alt="this is vaild" src={x}className='max-w-full ml-[72px] mt-[170px]'></img>
+      
+    </div>
+     <span className='ok absolute left-0 top-0 h-full w-full opacity-[0.02]'></span>
+    </div>
+
+ </section>
+
+<section className=' bg-grey-2 mt-12 lg:mt-9 md:mt-12 sm:mt-14 container gap-x-grid grid grid-cols-12 gap-y-[72px] lg:gap-y-14 md:gap-y-11 sm:gap-y-8'>
+<header className='col-span-8 col-start-2 ml-[173px] flex flex-col items-start gap-4 lg:col-span-12 lg:col-start-1 md:gap-4 sm:gap-3'>
+
+  <span className='text-[16px] font-medium leading-1.125 tracking-wide text-shades-purple-85 opacity-90'>YAML </span>
+  <h2 className='font-titles text-64 font-semibold leading-normal tracking-wider lg:text-[56px] md:text-[44px] sm:text-[36px] xs:text-[32px]'>Templatize  <br/> and standardize</h2>
+  <div className='flex items-end self-stretch sm:flex-col sm:items-start'>
+    <p className='max-w-[485px] text-[18px] font-light text-grey-70 md:max-w-[423px] md:text-[16px] sm:max-w-full'>We created hundreds of re-usable pipeline templates so that you don't have to.</p>
+    <span className='relative z-40'>try it</span>
+  </div>
+</header>
+</section>
 
 
   </>
