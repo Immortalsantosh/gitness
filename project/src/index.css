@@ -139,3 +139,10 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 .bg-template-card {
   @apply bg-[radial-gradient(121.65%_100%_at_32.68%_0,#3c4155_0,rgba(60,65,85,0.18)_32.49%,rgba(60,65,85,0)_51.34%),radial-gradient(91.41%_43.04%_at_50%_0,#1a1c24_20.67%,rgba(26,28,36,0)_100%),radial-gradient(69.96%_25.89%_at_50%_100%,#15171e_22.77%,rgba(19,21,27,0)_100%)];
 }
+.gap-x-grid {
+  @apply gap-x-8;
+}
+.bg-grey-1 {
+  @apply bg-[rgb(13_14_18_/_var(--tw-bg-opacity))];
+  --tw-bg-opacity: 1;
+}

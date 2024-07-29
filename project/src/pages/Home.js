@@ -27,7 +27,8 @@ import icons6 from '../assests/icons/protected.svg'
 import icons7 from '../assests/icons/notification.svg'
 
 import java from '../assests/icons/JAVA.svg'
-
+import go from '../assests/icons/go.svg'
+import node from '../assests/icons/node.svg'
 
 const Home = () => {
   return (
@@ -300,8 +301,9 @@ const Home = () => {
       
   </div>
 </header>
-<div className='gap-x-grid col-span-full grid auto-rows-fr grid-cols-4 gap-y-8 lg:grid-cols-3 lg:gap-y-6 md:gap-y-4.5 sm:grid-cols-1 sm:gap-y-4'>
-<a className='z-0  justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5' href='www.google.com'>
+
+<div className='gap-x-grid col-span-full w-[1216px]  h-[568px] grid auto-rows-fr grid-cols-4 gap-y-8 lg:grid-cols-3 lg:gap-y-6 md:gap-y-4.5 sm:grid-cols-1 sm:gap-y-4'>
+<a className='z-0  w-[280px] h-[268px] justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5' href='www.google.com'>
   <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
   <div className='flex h-16 items-center md:h-14 xs:h-12'>
     <div className='relative'>
@@ -315,47 +317,48 @@ const Home = () => {
   </span>
 </a>
 {/* GOLANG */}
-<a  href =" wwww.google.com"className="z-0 inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
+<a  href =" wwww.google.com"className="z-0 w-[280px] h-[268px] inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
   <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
   <div className="flex h-16 items-center md:h-14 xs:h-12">
     <div className='relative'>
-      <img alt='go' src={java} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
+      <img alt='go' src={go} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
     </div>
   </div>
   <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Golang</h3>
   <p  className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'>Build and Test your Go applications and modules</p>
+  <span  className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
+  </span>
+</a>
+{/* node */}
+<a  href =" wwww.google.com"className="z-0  w-[280px] h-[268px] inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
+  <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
+  <div className="flex h-16 items-center md:h-14 xs:h-12">
+    <div className='relative'>
+      <img alt='go' src={node} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
+    </div>
+  </div>
+  <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Node</h3>
+  <p  className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'>Build, Test and Publish your modules to the npm registry</p>
   <span  className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
   </span>
 </a>
 
-<a  href =" wwww.google.com"className="z-0 inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
-  <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
-  <div className="flex h-16 items-center md:h-14 xs:h-12">
-    <div className='relative'>
-      <img alt='go' src={java} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
-    </div>
-  </div>
-  <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Golang</h3>
-  <p  className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'>Build and Test your Go applications and modules</p>
-  <span  className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
-  </span>
+{/*writting section*/}
+<div className='col-start-4 flex flex-col items-start gap-2 py-7 lg:hidden'>
+  <p className='text-22 font-light text-grey-70'>Drive standards and consistency across engineering teams.</p>
+  <a href='www.google.com'  className='z-0 w-[280px] h-[268px] inline-flex items-center justify-center transition-colors duration-300 text-white hover:text-shades-purple-85 mt-auto text-18 font-light'>Explore templates
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="ml-2.5 mt-px" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M15.334 8.5H.667M10 3.168 15.334 8.5 10 13.835"></path></svg>
+  </a>
+<a href='www.google.com' className='z-0 inline-flex items-center justify-center transition-colors duration-300 text-white hover:text-shades-purple-85 text-18 font-light'> Create your own
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="ml-2.5 mt-px" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M15.334 8.5H.667M10 3.168 15.334 8.5 10 13.835"></path></svg>
 </a>
+</div>
 
-<a  href =" wwww.google.com"className="z-0 inline-flex items-center justify-center transition-colors duration-300 border-glow group relative flex flex-col !items-start overflow-hidden bg-grey-1 bg-template-card p-7 md:p-6 sm:p-5">
-  <span className='noise pointer-events-none absolute inset-0 opacity-[0.1]' aria-hidden="true"></span>
-  <div className="flex h-16 items-center md:h-14 xs:h-12">
-    <div className='relative'>
-      <img alt='go' src={java} className='h-[40px] w-[108px] md:h-[35px] md:w-[94px] xs:h-[30px] xs:w-[80px]'></img>
-    </div>
-  </div>
-  <h3 className='mt-5 text-18 font-medium group-hover:text-white md:mt-4'>Golang</h3>
-  <p  className='mb-5 mt-1.5 text-15 font-light leading-snug text-[#9DA8C6] md:mb-4.5 md:mt-1 sm:mb-4'>Build and Test your Go applications and modules</p>
-  <span  className='relative z-10 mt-auto flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] transition-shadow group-hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:h-[30px] md:w-[30px] sm:h-7 sm:w-7'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" class="h-4 w-3 -translate-x-px translate-y-px"><path stroke="#070709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4.308 1 6.461 6-6.461 6"></path></svg>
-  </span>
-</a>
+
+
+
 </div>
 
 </section>
