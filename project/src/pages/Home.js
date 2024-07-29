@@ -11,7 +11,7 @@ import Image1 from '../assests/image/male-70.jpg'
 import Image2 from '../assests/image/male-72.jpg'
 import video from '../assests/videos/coding.mp4'
 
-import light from '../assests/bg/light.jpg'
+import light1 from '../assests/bg/light.jpg'
 
 
 import icons1 from '../assests/icons/pull.svg'
@@ -244,23 +244,23 @@ const Home = () => {
 
 <section className="py-[400px] bg-grey-2 lg:py-[315px] md:py-[270px] sm:py-36 xs:py-28 relative overflow-hidden">
 <div className='container gap-x-grid grid grid-cols-12'>
-  <h2 className="col-span-7 col-start-2 -ml-2 pb-10 pl-2 font-titles text-[96px] font-semibold leading-none text-white lg:col-span-8 lg:col-start-1 lg:text-[80px] md:col-span-11 md:pb-8 md:text-[72px] sm:col-span-full sm:pb-7 sm:text-[56px] xs:text-[48px]">Your Code <br/> Your Language <br/> Your Platform</h2>
-  <p className='col-span-7 col-start-2 max-w-[623px] text-[24px] font-light lg:col-span-8 lg:col-start-1 md:col-span-9 md:text-[20px] text-white sm:col-span-full'>Packing the power of robust code hosting, seamless collaboration through code reviews, and flexible pipelines for any language. All with the security and governance policies developers need to write and deliver code with confidence.</p>
+  <h2 className="col-span-7 col-start-2 ml-32 pb-10 pl-2 font-titles text-[100px] font-semibold leading-none text-white lg:col-span-8 lg:col-start-1 lg:text-[80px] md:col-span-11 md:pb-8 md:text-[72px] sm:col-span-full sm:pb-7 sm:text-[56px] xs:text-[48px]">Your Code <br/> Your Language <br/> Your Platform</h2>
+  <p className='col-span-7 col-start-2 ml-32 max-w-[623px] text-[24px] font-light lg:col-span-8 lg:col-start-1 md:col-span-9 md:text-[20px] text-white sm:col-span-full'>Packing the power of robust code hosting, seamless collaboration through code reviews, and flexible pipelines for any language. All with the security and governance policies developers need to write and deliver code with confidence.</p>
   <d1 className="col-span-4 col-start-2 mt-14 lg:col-span-5 lg:col-start-1 md:col-span-7 md:mt-11 sm:col-span-full">
-    <dt className='mt-10 flex text-white flex-col items-start gap-3 text-[20px] font-medium leading-normal first:mt-0 md:mt-9 md:text-[18px] sm:mt-7'>
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height={24}  Weight={24} viewBox="0 0 24 24"><g clip-path="url(#agnostic_svg__a)"><path fill="url(#agnostic_svg__b)" fill-rule="evenodd" d="M11.646.644a.499.499 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L12.5 2.205v5.322a4.502 4.502 0 0 1 3.972 3.971h5.32l-2.146-2.146a.5.5 0 0 1 .708-.708l3 3a.499.499 0 0 1 .146.354V12.024a.496.496 0 0 1-.146.328l-3 3a.5.5 0 0 1-.708-.707l2.147-2.147h-5.32a4.502 4.502 0 0 1-3.973 3.975v5.318l2.146-2.146a.5.5 0 0 1 .708.707l-3 3a.5.5 0 0 1-.354.146H11.974a.5.5 0 0 1-.328-.146l-3-3a.5.5 0 1 1 .708-.707L11.5 21.79v-5.319a4.502 4.502 0 0 1-3.973-3.974h-5.32l2.147 2.147a.5.5 0 1 1-.708.707l-3-3a.498.498 0 0 1 0-.707l3-3a.5.5 0 1 1 .708.707l-2.147 2.146h5.32a4.502 4.502 0 0 1 3.973-3.97V2.204L9.354 4.352a.5.5 0 1 1-.708-.708l3-3Zm.396 14.856a.481.481 0 0 0-.084 0 3.5 3.5 0 1 1 .084 0Z" clip-rule="evenodd"/></g><defs><linearGradient id="agnostic_svg__b" x1="12" x2="12" y1=".498" y2="23.498" gradientUnits="userSpaceOnUse"><stop stop-color="#C59FDF"/><stop offset="1" stop-color="#AD79D2"/></linearGradient><clipPath id="agnostic_svg__a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
+    <dt className='mt-10 flex text-white ml-32 flex-col items-start gap-3 text-[20px] font-medium leading-normal first:mt-0 md:mt-9 md:text-[18px] sm:mt-7'>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height={24}  width={24} viewBox="0 0 24 24"><g clip-path="url(#agnostic_svg__a)"><path fill="url(#agnostic_svg__b)" fill-rule="evenodd" d="M11.646.644a.499.499 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L12.5 2.205v5.322a4.502 4.502 0 0 1 3.972 3.971h5.32l-2.146-2.146a.5.5 0 0 1 .708-.708l3 3a.499.499 0 0 1 .146.354V12.024a.496.496 0 0 1-.146.328l-3 3a.5.5 0 0 1-.708-.707l2.147-2.147h-5.32a4.502 4.502 0 0 1-3.973 3.975v5.318l2.146-2.146a.5.5 0 0 1 .708.707l-3 3a.5.5 0 0 1-.354.146H11.974a.5.5 0 0 1-.328-.146l-3-3a.5.5 0 1 1 .708-.707L11.5 21.79v-5.319a4.502 4.502 0 0 1-3.973-3.974h-5.32l2.147 2.147a.5.5 0 1 1-.708.707l-3-3a.498.498 0 0 1 0-.707l3-3a.5.5 0 1 1 .708.707l-2.147 2.146h5.32a4.502 4.502 0 0 1 3.973-3.97V2.204L9.354 4.352a.5.5 0 1 1-.708-.708l3-3Zm.396 14.856a.481.481 0 0 0-.084 0 3.5 3.5 0 1 1 .084 0Z" clip-rule="evenodd"/></g><defs><linearGradient id="agnostic_svg__b" x1="12" x2="12" y1=".498" y2="23.498" gradientUnits="userSpaceOnUse"><stop stop-color="#C59FDF"/><stop offset="1" stop-color="#AD79D2"/></linearGradient><clipPath id="agnostic_svg__a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
     Vendor agnostic</dt>
-    <dd className='mt-1.5 text-[18px] font-light leading-snug text-white md:max-w-[305px] md:text-[16px]'>Create pipelines for GitHub, GitLab, Bitbucket, Azure, and more.</dd>
-    <dt className='mt-10 text-white flex flex-col items-start gap-3 text-[20px] font-medium leading-normal first:mt-0 md:mt-9 md:text-[18px] sm:mt-7'>
+    <dd className='mt-1.5 text-[18px] ml-32 font-light leading-snug text-white md:max-w-[305px] md:text-[16px]'>Create pipelines for GitHub, GitLab, Bitbucket, Azure, and more.</dd>
+    <dt className='mt-10 text-white flex  ml-32 flex-col items-start gap-3 text-[20px] font-medium leading-normal first:mt-0 md:mt-9 md:text-[18px] sm:mt-7'>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" Weight={24} height={24}  viewBox="0 0 24 24"><path fill="url(#source-code_svg__a)" fill-rule="evenodd" d="M2 2.5a.5.5 0 0 1 .5-.5h20a.5.5 0 0 1 .5.5v20a.5.5 0 0 1-.5.5h-20a.5.5 0 0 1-.5-.5v-20ZM3 3v19h19V3H3Zm4.146 5.146a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708l3.647-3.646-3.647-3.646a.5.5 0 0 1 0-.708ZM13.5 8a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4Zm-.5 8.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5Zm2.5-4.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2Z" clip-rule="evenodd"/><defs><linearGradient id="source-code_svg__a" x1="12.5" x2="12.5" y1="2" y2="23" gradientUnits="userSpaceOnUse"><stop stop-color="#C59FDF"/><stop offset="1" stop-color="#AD79D2"/></linearGradient></defs></svg>
     Platform agnostic</dt>
-    <dd className='mt-1.5 text-[18px] font-light leading-snug text-white md:max-w-[305px] md:text-[16px]'>Build pipelines for any language or platform. Works with Linux, Windows and Mac.
+    <dd className='mt-1.5 text-[18px] font-light ml-32 leading-snug text-white md:max-w-[305px] md:text-[16px]'>Build pipelines for any language or platform. Works with Linux, Windows and Mac.
     </dd>
   </d1>
 </div>
 <div className='absolute left-[calc(50%+292px)] top-[68px] z-[-1] w-[1024px] -translate-x-1/2 lg:left-[calc(50%+187px)] lg:top-12 lg:w-[947px] md:left-[calc(50%+200px)] md:top-8 md:w-[816px] sm:hidden'>
-<span className="noise absolute inset-0 opacity-[0.04] mix-blend-overlay"></span>
-<img  loading="lazy" Weight="1024" height="1056" decoding="async" data-nimg="1" className='w-full bg-transparent colo' alt="" src={light}></img>
+<span className="noise absolute inset-0 opacity-[0.04] mix-blend-overlay" ></span>
+<img   width="1024" height="1056" decoding="async" data-nimg="1" className='w-[1024px] h-[1056px] bg-transparent ' alt="" src={light1}></img>
 </div>
 </section>
 
