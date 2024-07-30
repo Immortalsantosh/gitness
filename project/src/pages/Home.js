@@ -1,7 +1,7 @@
 import React from 'react'
-import Lottie from 'lottie-react'
+// import Lottie from 'lottie-react'
 // import Feature from './Feature'
-import animationData from '../assests/Animation - 4.json'
+// import animationData from '../assests/Animation - 4.json'
 import CircularImage from './CircularImage'
 
 import pipeline from '../assests/bg/download.png'
@@ -9,13 +9,15 @@ import pipeline from '../assests/bg/download.png'
 import Image from '../assests/image/male-24.jpg'
 import Image1 from '../assests/image/male-70.jpg'
 import Image2 from '../assests/image/male-72.jpg'
+
+import cube from '../assests/videos/bg.mp4'
 import video from '../assests/videos/coding.mp4'
 
 import light1 from '../assests/bg/light3.png'
 import x from '../assests/bg/image02.jpg'
 
-// java all logo
 
+import git from '../assests/bg/github.webp'
 
 
 import icons1 from '../assests/icons/pull.svg'
@@ -75,7 +77,16 @@ const Home = () => {
       </div>
       </div>
     </div>
-    <Lottie animationData={animationData} className='bg-transparent pb-20 border-none w-[500px]  pt-[50px]'/>
+    <video autoPlay loop muted className=' bg-grey-2 object-contain  video h-fit bg-transparent pb-20 border-none w-[500px]  pt-[20px] left-0 top-0 ' src={cube}></video>
+    {/* <Lottie animationData={animationData} className='bg-transparent pb-20 border-none w-[500px]  pt-[50px]'/> */}
+    {/* <div className='relative order-1 min-h-[225px] min-w-[225px] overflow-hidden grayscale md:hidden md:overflow-auto'>
+      <video autoPlay loop muted className='absolute left-0 top-0 h-[225px] w-[225px]' src={cube}></video>
+    </div> */}
+    {/* <div className='relative order-1 transform-gpu grayscale md:order-2 md:w-[700px] hidden items-center justify-center lg:flex lg:animate-[open-scale-up-fade_1.5s_ease-in-out] before:from-green-5/5 before:to-yellow-6/25 before:absolute before:left-0 before:top-0 before:block before:h-full before:w-full before:rounded-full before:bg-gradient-to-br before:blur-[100px]'>
+     <div className='relative animate-webgl-scale-in-fade w-full h-full'>
+
+     </div>
+    </div> */}
   </div>
   
   <div className="border-glow  bg-grey-2 bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
@@ -223,15 +234,18 @@ const Home = () => {
 <div className="  bg-grey-2  text-white h-[480px] flex items-center justify-center p-12 space-x-16">
   <div className="border-glow col-span-6 mt-8 grid grid-cols-1 grid-rows-1 overflow-hidden  lg:mt-6 md:mt-4.5 sm:col-span-full bg-gray-800 sm:mt-4 w-full h-full rounded-lg  flex-col items-center justify-center p-4">
     <div className="flex items-start justify-center w-full">
-      <h3 className="text-white text-xl font-bold mb-2 text-center">Integrations</h3>
+    <img  alt="this is vaild" src={git}className='absolute h-full w-full left-0 top-0 right-0 bottom-0 text-transparent'></img>
     </div>
-    {/* SVG or Image for Integrations */}
-    <div className="mb-4">
-      <img src="/path/to/integrations-icon.svg" alt="Integrations" className="w-16 h-16" />
+    <div className='section-header'>
+      <h6 className='section-header-title section-header-title-h6'>
+        <span>View code on GitHub</span>
+      </h6>
+      <p className="section-header-description">Host your own frontend.</p>
     </div>
-    <p className="text-gray-400 text-center">
+   
+    {/* <p className="text-gray-400 text-center">
       Publish, deploy, notify, report - Gitness integrates with your favorite tools. Create custom integrations with ease and share with the community.
-    </p>
+    </p> */}
   </div>
 
   <div className="w-full h-full bg-gray-800 rounded-lg flex flex-col items-center justify-center p-4">

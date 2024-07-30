@@ -146,3 +146,37 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   @apply bg-[rgb(13_14_18_/_var(--tw-bg-opacity))];
   --tw-bg-opacity: 1;
 }
+
+
+/* //gitub */
+.section-header {
+  @apply flex flex-col z-[1] relative text-center items-center mx-auto my-0;
+}
+.section-header-title-h6 {
+  @apply text-[28px] leading-8;
+}
+.section-header-title {
+  text-shadow: 0 2px 16px rgba(174, 207, 242, 0.24);
+}
+.section-header-description {
+  @apply text-[color:var(--body-normal)] mt-4;
+}
+.cta-box-dots {
+  @apply absolute block inset-[26px];
+}
+
+.grayscale,
+.invert {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+}
+.grayscale {
+  --tw-grayscale: grayscale(100%);
+}
+.animate-webgl-scale-in-fade {
+  @apply animate-[webgl-scale-in-fade_1s_ease-in-out];
+}
+video {
+  @apply bg-transparent;
+}
