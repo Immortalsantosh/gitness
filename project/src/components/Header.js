@@ -16,7 +16,7 @@ function Header() {
           </div>
           <div className="flex justify-end  container ml-52">
             <nav>
-              <ul className="flex gap-5 justify-center items-center font-sans text-14px">
+              <ul className="flex gap-5 justify-center items-center font-sans text-[14px]">
                 <li className="text-white  font-normal opacity-80 hover:opacity-100 hover:text-blue-300">
                   <Link to={"/Doc"}>Doc</Link>
                 </li>

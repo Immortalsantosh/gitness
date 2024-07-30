@@ -406,22 +406,11 @@ const Home = () => {
 </a>
 </div>
 </section>
+ 
+ <section className='bg-grey-2 bg-black h-full w-full '>
+  <header className='container bg-black h-full w-full'></header>
+ </section>
 
-<section className='-mb-20 mt-60 bg-grey-2 lg:mt-[200px] md:mt-[152px] sm:-mb-16 sm:mt-32 xs:mt-28 relative  after:container after:absolute after:bottom-20 after:left-1/2 after:h-px after:-translate-x-1/2 after:bg-white/80 after:mix-blend-overlay sm:after:bottom-16 sm:after:max-w-[calc(100%-2rem)]'>
-  <header className='container relative bg-grey-2 z-10 text-center'>
-    <h2 className='font-titles text-48 font-bold leading-1.125 tracking-wide opacity-90 lg:text-44 md:text-40 sm:text-32 xs:mx-auto xs:max-w-[200px] xs:text-28'>Setup Gitness in 30 seconds</h2>
-    <p className='mx-auto mt-4 max-w-md text-18 font-light text-grey-70 md:mt-3.5 md:text-16'>Install with a single Docker command. Lightweight enough to run on a $4 Digital Ocean droplet.</p>
-  </header>
-  <span className='absolute left-1/2 top-0 h-full w-px' aria-hidden="true"></span>
-  <div className=' left-1/2 z-0 -ml-px -mt-[207px] w-[1727px] -translate-x-1/2 lg:-mb-1 lg:-mt-[203px] md:-mb-4 md:-mt-[183px] md:w-[1536px] sm:-mb-[110px]  sm:-mt-[187px] relative'>
-    <div className='will-change-all absolute left-1/2 top-[250px] z-10 -translate-x-1/2 rounded-full bg-black px-0.5 opacity-0 transition-opacity duration-[8s] md:top-[222px] !opacity-100'>
-    <a href="  www.google.com" className="z-0 inline-flex  justify-center transition-colors duration-300 text-grey-94 hover:text-grey-80 transition-shadow items-center gap-2 rounded-full bg-white h-11 px-[22px] text-16 font-medium leading-snug tracking-tighter !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:text-14 md:h-10 md:px-4.5">Get started
-    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="12" fill="none" class="mt-px" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="m1 1 4 4-4 4"></path></svg>
-    </a>
-    </div>
-    <span className='noise absolute left-0 top-0 h-full w-full opacity-[0.02]'></span>
-      </div>
-</section>
   </>
   
  
