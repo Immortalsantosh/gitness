@@ -6,6 +6,8 @@ import CircularImage from './CircularImage'
 
 import pipeline from '../assests/bg/download.png'
 
+import shape from '../assests/bg/image.jpeg'
+
 import Image from '../assests/image/male-24.jpg'
 import Image1 from '../assests/image/male-70.jpg'
 import Image2 from '../assests/image/male-72.jpg'
@@ -84,6 +86,13 @@ const Home = () => {
     <video autoPlay loop muted className=' mt-[-112px] video h-fit bg-transparent pb-20 border-none w-[500px]  pt-[20px] left-0 top-0 ' src={cube}></video>
    
   </div>
+
+  {/* //video */}
+  
+    {/* <div className='absolute left-[calc(50%+65px)] top-[336px] w-[1480px] max-w-none -translate-x-1/2 lg:left-[calc(50%+21px)] lg:top-[359px] lg:w-[1053px] md:left-[calc(50%+60px)] md:top-[238px] md:w-[915px] '>
+      <img  alt="this is shape" src={shape} className='w-[1480px] h-[740px]'></img>
+      <span className='noise absolute left-0 top-0 h-full w-full opacity-[0.04]'></span>
+    </div> */}
   
   <div className="border-glow   bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden  bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
         
