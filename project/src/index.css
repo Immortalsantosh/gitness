@@ -180,3 +180,18 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 video {
   @apply bg-transparent;
 }
+
+bg-grey-3 {
+  @apply bg-[rgb(7_7_9_/_var(--tw-bg-opacity))] text-[rgb(255_255_255_/_var(--tw-text-opacity))];
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-titles {
+  font-family: var(--font-cal-sans), ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}

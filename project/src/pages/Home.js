@@ -421,8 +421,11 @@ const Home = () => {
 </div>
 </section>
  
- <section className='bg-grey-2 bg-black h-full w-full '>
-  <header className='container bg-black h-full w-full'></header>
+ <section className='-mb-20  bg-grey-3 mt-60 lg:mt-[200px] md:mt-[152px] sm:-mb-16 sm:mt-32 xs:mt-28 relative overflow-hidden after:container after:absolute after:bottom-20 after:left-1/2 after:h-px after:-translate-x-1/2 after:bg-white/80 after:mix-blend-overlay sm:after:bottom-16 sm:after:max-w-[calc(100%-2rem)] '>
+  <header className=''>
+    <h2 className='container relative z-10 text-center'>Setup Gitness in 30 seconds</h2>
+    <p className='font-titles text-48 font-bold leading-1.125 tracking-wide opacity-90 lg:text-44 md:text-40 sm:text-32 xs:mx-auto xs:max-w-[200px] xs:text-28'>Install with a single Docker command. Lightweight enough to run on a $4 Digital Ocean droplet.</p>     
+  </header>
  </section>
 
   </>
