@@ -16,6 +16,12 @@ import video from '../assests/videos/coding.mp4'
 import light1 from '../assests/bg/light3.png'
 import x from '../assests/bg/image02.jpg'
 
+import y from '../assests/bg/man.png'
+import y1 from '../assests/bg/start.png'
+import y2 from '../assests/bg/tv.png'
+import y3 from '../assests/bg/abcd.png'
+import y4 from '../assests/bg/man2.png'
+import y5 from '../assests/bg/abcde.png'
 
 import git from '../assests/bg/github.webp'
 
@@ -38,24 +44,24 @@ import docker from '../assests/icons/docker.svg'
 const Home = () => {
   return (
    <>
-     <div className='min-h-screen  bg-grey-2 bg-black flex  pt-32  items-start justify-start  '>
+     <div className='min-h-screen   bg-black flex  pt-32  items-start justify-start  '>
     <div className='text-center space-y-4 w-1/2'>
      <div className='text-7xl text-start text-white font-sans  ml-16 font-semibold flex justify-start mr-[70px] opacity-85 '>
      <h3>Open-source <br/>code hosting & <br/> pipeline engine </h3>
       </div>
       
       {/* //button  */}
-      <div className="grid grid-cols-1  bg-grey-2 gap-4 w-[120px]  ml-16 pt-4">
+      <div className="grid grid-cols-1   gap-4 w-[120px]  ml-16 pt-4">
         <button className="bg-white mt-4  text-black border  font-bold px-3 py-2 rounded-full  hover:outline-cyan-50 ">
         Get Started
         </button>
       </div>  
 
-      <div className='bg-black  bg-grey-2 mb-20'>
-  <div className='text-md text-white font-sans  bg-grey-2 bg-black flex justify-start ml-16 text-center pt-24 opacity-60'>
+      <div className='bg-black   mb-20'>
+  <div className='text-md text-white font-sans   bg-black flex justify-start ml-16 text-center pt-24 opacity-60'>
       <p>The worlds largest companies trust the Harness platform</p>
       </div>
-      <div className=' overflow-hidden  bg-grey-2 flex shadow-2xl ml-16 border-x-transparent'>
+      <div className=' overflow-hidden   flex shadow-2xl ml-16 border-x-transparent'>
       <div className=' text-start gap-8 flex  w-142 h-23 space-y-4  svg-path'>
          <svg xmlns="http://www.w3.org/2000/svg" fill="none"  width="107" height="90"   viewBox="0 0 146 52"><path fill="#B3B7CC" fill-rule="evenodd" d="M19.68 19.345c-2.293-2.491-4.587-2.11-4.996-2.042h-.005c.046.016.092.264.166.664.245 1.316.796 4.284 2.664 6.05 1.645 1.515 5.002.988 5.002.988s-.592-3.225-2.83-5.66Zm2.766 8.49c-.725 0-3.686.264-5.661 2.7-1.358 1.708-1.783 3.184-2.052 4.116-.134.467-.23.798-.383.952.395.132 4.541.526 6.319-2.172 1.71-2.502 1.777-5.2 1.777-5.595ZM4.41 26.059c.13.019.346.192.653.438.79.631 2.18 1.742 4.218 1.932 2.716.29 3.86-.893 4.143-1.186.039-.04.062-.064.07-.064 0-.198-2.501-2.897-5.266-2.897-1.909.066-3.818 1.777-3.818 1.777Zm11.256 1.383-.02.022c-.25.303-2.848 3.43-8.669 2.545-3.885-.63-5.802-2.474-6.585-3.229-.2-.191-.325-.312-.392-.326.395-.526 4.081-3.488 8.36-3.423 4.212.132 7.306 2.502 7.306 2.502h2.698c-2.172-.658-4.805-1.843-5.99-4.476-.693-1.605-.844-2.78-.998-3.98-.08-.62-.16-1.248-.318-1.944 0 0 4.871-.395 8.623 2.04 3.366 2.2 5.267 7.966 5.392 8.345l.005.015h2.107L26.724 15l2.633.066c-.305 1.831-.148 11.114-.046 17.173.052 3.088.09 5.339.046 5.339-.263.065-2.502.197-2.699-.33 0 0 .527-9.676.593-9.873H25.21c0 .131-.198 5.595-4.344 8.491-4.147 2.896-10.137 2.04-10.137 2.04.268-.413.338-.835.425-1.366.15-.906.353-2.128 1.681-4.163 2.185-3.307 5.006-4.706 5.516-4.96.058-.028.086-.042.08-.042-.198.066-2.7.066-2.765.066Zm26.068-1.317c-1.58.197-2.567.658-3.225 1.317-.527.526-.79 1.184-.79 1.843 0 1.184.855 2.04 1.909 2.04.658 0 1.316-.263 1.645-.658.132-.132.263-.395.263-.658l.198-3.884Zm2.698 7.043c-1.316 0-2.501-.856-2.83-2.172-.658 1.185-1.909 2.172-3.554 2.172-1.843 0-3.423-1.448-3.423-3.291 0-2.567 2.435-4.41 7.043-4.476v-.658c.066-1.843-.987-2.963-2.83-2.963-1.317 0-2.699.857-3.62 1.975-.066.066-.461-.329-.461-.395 1.184-2.369 3.357-3.686 5.595-3.686 2.566 0 4.41 1.844 4.344 4.937l-.197 5.134c0 1.185.526 1.712 1.118 1.712.658 0 1.12-.527 1.383-1.251 0-.066.394.132.394.197 0 1.778-1.316 2.765-2.962 2.765Zm16.39-.46h-3.488c-.066 0-.066-.659 0-.659 1.448-.197 1.645-.329 1.645-3.16V24.94c0-1.777-1.053-3.027-2.567-3.027-1.053 0-2.04.526-2.501 1.184-.33.395-.527 1.12-.527 2.04v3.753c0 2.83.33 2.962 1.777 3.16 0 0 .066.657 0 .657h-6.714c-.065 0-.065-.658-.065-.658 1.58-.263 1.777-.329 1.777-3.16v-4.804c0-2.897-.33-3.028-2.04-3.291-.132 0-.067-.659 0-.659h5.002v2.896h.066c1.119-2.106 2.83-3.357 4.936-3.357 2.37 0 4.213 1.844 4.213 4.871v4.279c0 2.83.263 2.962 1.843 3.16.132 0 .066.658 0 .658-.987.065-2.436.065-3.357.065Zm10.597.46c-3.949 0-6.516-3.094-6.516-6.648 0-3.818 2.567-6.846 6.78-6.846 1.276 0 2.14.275 2.75.47.335.106.595.189.804.189.264 0 .527-.198.658-.527 0-.066.79-.066.79 0v4.74c0 .065-.79.065-.79 0-1.053-2.173-2.5-4.016-4.212-4.016-2.107 0-3.357 2.238-3.357 5.332 0 3.29 1.711 5.463 4.081 5.463 1.58 0 3.357-1.119 4.081-2.37.066-.131.592.132.592.264-.855 2.238-3.093 3.95-5.66 3.95Zm15.995-8.36v-.921c0-2.04-.987-3.225-2.238-3.225-1.58 0-2.764 1.711-3.028 4.147h5.266Zm-5.266 1.514c0 2.83 1.58 5.003 4.279 5.003 1.58 0 3.159-1.053 4.015-2.37 0-.065.527.132.527.264-.724 2.238-3.094 3.949-5.727 3.949-4.147 0-6.582-3.028-6.582-6.648 0-3.62 2.567-6.846 6.911-6.846 3.291 0 5.464 2.172 5.661 5.135v.921H82.28c-.132.132-.132.46-.132.593Zm15.666 6.846c-2.04 0-3.818-.526-4.41-.921-.066-.066-.263-1.778-.263-3.489 0-.066.79-.132.79 0 1.053 2.304 2.567 3.62 4.212 3.62 1.382 0 2.37-.724 2.37-1.843 0-1.206-1.326-1.804-2.763-2.453a69.94 69.94 0 0 1-.396-.18c-1.91-.724-4.081-1.711-4.081-4.146 0-1.91 1.645-3.884 4.739-3.884.788 0 1.41.188 1.91.34.336.102.617.186.854.186.264 0 .527-.197.724-.526 0-.066.79-.066.79 0v4.344c0 .066-.79.066-.79 0-1.053-1.974-2.303-3.357-3.817-3.357-1.383 0-2.041.922-2.041 1.646 0 1.226 1.312 1.766 2.768 2.366l.325.135c1.909.79 4.147 1.778 4.147 4.279 0 2.106-1.974 3.883-5.068 3.883Zm6.517-11.65c-.198 0-.264-.527-.066-.659 1.382-1.25 3.686-3.357 4.936-4.674.066-.065.527 0 .527.132V20.2h4.476c.132 0 .132 1.25 0 1.25h-4.476v7.307c0 1.645.987 2.37 2.04 2.37.79 0 1.646-.659 2.041-1.449 0-.066.527.198.527.264-.527 1.777-2.238 3.16-4.147 3.16-2.041 0-3.686-1.317-3.686-3.884v-7.702h-2.172Zm20.8 2.106c-.168 0-.443-.214-.759-.46-.428-.333-.932-.725-1.348-.725-.329 0-.724.198-1.053.527-.527.526-.987 1.777-.987 2.83v3.16c0 2.896.461 2.962 1.974 3.159 0 0 .066.658 0 .658h-6.976c-.066 0-.066-.658 0-.658 1.579-.263 1.777-.33 1.777-3.16V24.15c0-2.83-.329-3.028-2.041-3.29-.132 0-.066-.66 0-.66h5.068v3.292h.132c.079-.238.207-.5.339-.772.086-.179.175-.362.253-.545.922-1.514 2.041-2.435 3.226-2.435 1.119 0 2.04.856 2.04 1.777.066 1.053-1.316 2.106-1.645 2.106Zm13.624 1.711-4.278 10.993C132.963 40.21 131.581 41 129.738 41c-1.053 0-2.238-.526-2.238-.855-.066-.527.658-2.436 1.053-2.436.038 0 .198.061.425.147.556.212 1.515.577 2.076.577 1.119 0 1.843-.724 2.435-2.304l.79-2.106c-.203-.812-2.128-5.109-3.18-7.455l-.001-.003c-.311-.695-.546-1.218-.636-1.428-.161-.375-.31-.733-.451-1.07-.553-1.324-.973-2.329-1.392-2.748-.329-.33-.658-.46-1.58-.593-.066 0-.066-.658 0-.658.413 0 1.039.015 1.689.031.697.017 1.42.035 1.931.035.512 0 1.217-.018 1.897-.035.634-.016 1.245-.031 1.658-.031.065 0 .065.658 0 .658-1.975.263-1.778.922-.724 3.555l2.304 5.595 1.842-4.806c.659-1.645.988-2.633.988-3.225 0-.724-.461-.987-1.843-1.053-.066 0-.066-.724 0-.724.478 0 1.028.017 1.556.034.489.016.96.032 1.34.032.249 0 .499-.012.788-.026.397-.018.868-.04 1.516-.04.066 0 .131.724 0 .724-.724.066-1.053.263-1.448.658-.527.527-.922 1.58-1.778 3.883v.001Zm6.105-4.286c0 .165-.134.235-.325.235h-.185v-.477h.204c.229 0 .306.096.306.242Zm-.274-.42h-.439v1.31h.203v-.483h.299l.248.483h.236l-.312-.546a.379.379 0 0 0 .254-.357c0-.318-.241-.407-.489-.407Zm-.007-.382c.535 0 .961.452.961 1.063 0 .604-.426 1.043-.961 1.043-.534 0-.96-.44-.96-1.043 0-.611.426-1.063.96-1.063Zm0-.178c-.629 0-1.157.496-1.157 1.24 0 .738.528 1.228 1.157 1.228.636 0 1.158-.49 1.158-1.227 0-.745-.522-1.24-1.158-1.24Z" clip-rule="evenodd"/></svg>
          <svg xmlns="http://www.w3.org/2000/svg" fill="none"  width="107" height="62"   viewBox="0 0 90 52"><path fill="#B2B7CC" fill-rule="evenodd" d="M37.36 17c1.478 0 3.745.067 5.037.151 1.31.102 2.855.337 3.493.506.79.235 1.343.538 1.83.993.403.354.89 1.027 1.092 1.516.251.538.453 1.515.57 2.66.118 1.06.152 2.896.084 4.428-.05 1.465-.201 3.031-.352 3.57-.134.539-.437 1.28-.672 1.65-.235.37-.672.859-.974 1.078-.285.219-.84.522-1.209.673-.37.152-1.31.388-2.099.522-1.057.186-2.837.253-6.766.253-4.534 0-5.558-.05-6.885-.32-.84-.168-1.847-.455-2.216-.64-.37-.185-.924-.64-1.226-.993-.319-.387-.705-1.162-.923-1.836-.336-1.077-.37-1.532-.37-5.135 0-3.267.05-4.126.286-4.883.168-.505.503-1.263.772-1.684.336-.539.756-.91 1.478-1.297.537-.286 1.444-.606 1.998-.707.554-.118 1.763-.252 2.686-.337.924-.084 2.889-.151 4.366-.168Zm-5.172 4.917c-.251.151-.57.572-.722.909-.168.404-.302 1.33-.369 2.408-.034.976 0 2.29.118 2.946.134.91.285 1.297.638 1.65.268.27.654.523.89.59.235.067 2.468.118 4.953.118 3.66 0 4.634-.05 5.104-.253.303-.134.722-.522.924-.842.319-.538.353-.825.353-3.57 0-2.76-.034-3.013-.353-3.451-.185-.253-.638-.573-1.008-.69-.42-.152-1.83-.253-3.929-.287-1.796-.033-3.912 0-4.701.068-.873.067-1.612.218-1.898.404ZM0 17.32h8.597c5.037 0 9.034.067 9.621.168.588.101 1.344.388 1.797.674.52.32.94.758 1.175 1.212.269.539.386 1.111.437 2.24.033.842-.017 1.818-.118 2.189-.1.37-.403.875-.654 1.145a8.177 8.177 0 0 1-.79.69c-.319.219-.302.253.336.522.37.151.89.471 1.142.724.252.253.554.758.655 1.128.1.37.168 1.28.168 2.02 0 .775-.135 1.668-.286 2.106-.15.42-.554 1.044-.89 1.397-.37.387-.957.741-1.46.91-.74.252-2.066.286-19.73.387V17.32Zm5.205 6.904h10.427c.689-.708.823-1.028.823-1.432a1.58 1.58 0 0 0-.403-1.06l-.403-.455-10.427-.101-.017 3.048Zm0 6.735c8.698-.017 10.511-.084 10.914-.22.37-.134.655-.37.806-.706a1.73 1.73 0 0 0 .135-1.044 1.647 1.647 0 0 0-.571-.893c-.437-.336-.689-.336-5.877-.336H5.205v3.199Zm84.728-13.134c.033 0 .067.185.067.421s-.118.455-.252.505c-.218.067-.218 0-.067-.42.1-.27.201-.506.252-.506Zm-36.37-.505h8.48c5.34 0 8.966.067 9.772.185.722.101 1.612.32 1.982.489.369.151.957.538 1.326.858.353.32.772.842.94 1.162.151.32.387 1.01.521 1.515.168.657.235 2.021.218 4.715 0 3.031-.05 3.974-.268 4.715-.168.505-.504 1.246-.756 1.633-.269.387-.739.91-1.058 1.145-.319.236-1.007.573-1.511.724-.823.253-1.931.286-19.562.286l-.084-17.427Zm5.374 13.302c10.209-.084 10.897-.118 11.384-.37.285-.169.672-.54.84-.842.234-.455.285-.994.285-3.25 0-2.24-.05-2.778-.286-3.233-.184-.337-.587-.69-1.007-.892-.672-.303-1.091-.32-5.96-.337h-5.256v8.924Zm25.74-13.285c.806-.017 1.041.05 1.478.454.386.337.537.64.604 1.213.067.606 0 .875-.319 1.347-.201.32-.655.724-.974.91-.386.218-.906.336-1.51.336-.588 0-1.092-.101-1.378-.286-.268-.152-.587-.522-.739-.826-.167-.353-.234-.757-.167-1.094.05-.303.285-.791.487-1.078a2.83 2.83 0 0 1 .973-.757c.32-.118 1.008-.22 1.545-.22Zm4.08.118c.034.118.185.202.32.202.134 0 .285.067.319.134.033.068-.118.135-.336.169-.32.034-.403-.034-.386-.337 0-.219.033-.286.083-.168Zm-.335.202c.033 0 .016.151-.017.337-.05.185 0 .505.117.724.168.336.168.353-.1.117a1.046 1.046 0 0 1-.303-.606c-.016-.185.034-.387.118-.454a.701.701 0 0 1 .185-.118Zm-3.88 5.556c.605 0 1.092.084 1.227.22.117.1.201.572.201 1.01 0 .538-.37 1.868-1.175 4.209-.638 1.869-1.176 3.469-1.176 3.536 0 .067.168.118.387.118.201 0 .722-.219 1.175-.505.437-.27.873-.472.957-.421.1.05.168.27.168.505 0 .303-.235.623-.79 1.111-.453.37-1.175.859-1.645 1.078-.453.219-1.326.488-1.93.59-.605.1-1.344.15-1.63.1-.302-.05-.671-.27-.805-.471a2.05 2.05 0 0 1-.252-.926c0-.303.537-2.105 1.175-4.008.655-1.903 1.142-3.519 1.091-3.62a.392.392 0 0 0-.285-.168c-.117 0-.57.185-1.007.42-.689.371-.823.388-.924.169-.09-.168.034-.427.37-.775.285-.286.84-.707 1.259-.96.42-.235 1.175-.605 1.679-.824a5.798 5.798 0 0 1 1.93-.388Z" clip-rule="evenodd"/></svg>
@@ -77,7 +83,7 @@ const Home = () => {
       </div>
       </div>
     </div>
-    <video autoPlay loop muted className=' bg-grey-2 object-contain  video h-fit bg-transparent pb-20 border-none w-[500px]  pt-[20px] left-0 top-0 ' src={cube}></video>
+    <video autoPlay loop muted className=' object-contain  video h-fit bg-transparent pb-20 border-none w-[500px]  pt-[20px] left-0 top-0 ' src={cube}></video>
     {/* <Lottie animationData={animationData} className='bg-transparent pb-20 border-none w-[500px]  pt-[50px]'/> */}
     {/* <div className='relative order-1 min-h-[225px] min-w-[225px] overflow-hidden grayscale md:hidden md:overflow-auto'>
       <video autoPlay loop muted className='absolute left-0 top-0 h-[225px] w-[225px]' src={cube}></video>
@@ -89,19 +95,19 @@ const Home = () => {
     </div> */}
   </div>
   
-  <div className="border-glow  bg-grey-2 bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
+  <div className="border-glow   bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden  bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
         
   <div className='flex flex-col ml-16 gap-y-4 md:gap-y-3.5 sm:gap-y-3 w-full'>
   <span className='font-medium  tracking-wide text-blue-400 text-lg mb-2 opacity-90'> Code Hosting</span>
   <div className='flex justify-between items-center'>
     <h2 className='text-4xl w-full mb-6 flex font-bold tracking-wide opacity-90 lg:max-w-[620px]  md:max-w-[554px] md:text-40 sm:text-32 xs:text-28'>Familiar Git experience.<br/> Packed with essential features.</h2>
-    <button className="   bg-grey-2 text-shadow-md bg-black  mr-40 text-white border px-6 py-2 rounded-full mb-5 font-semibold">
+    <button className=" text-shadow-md bg-black  mr-40 text-white border px-6 py-2 rounded-full mb-5 font-semibold">
       Get started
     </button>
   </div>
 </div>
        
-      <div className=" custom-gradient bg-grey-2 relative rounded-md  w-[1100px] ml-16 h-[400px] col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
+      <div className=" custom-gradient  relative rounded-md  w-[1100px] ml-16 h-[400px] col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden bg-grey-1 bg-git-experience pl-[72px] pt-[68px] border border-white sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5 md:mt-11 md:min-h-[306px] md:pl-11 md:pt-16 lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20">
         <div className="flex flex-col md:flex-row items-center w-full h-full">
           {/* Left side text */}
           <div className="w-full md:w-1/2 p-8">
@@ -145,15 +151,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-black bg-grey-2 text-white  flex items-center justify-center p-12">
+      <div className="bg-black  text-white  flex items-center justify-center p-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8  max-w-6xl h-96 mr-4">
-        <div className="bg-black bg-grey-2 rounded-lg p-6 flex items-center justify-center">
+        <div className="bg-black  rounded-lg p-6 flex items-center justify-center">
           
      <video autoPlay loop muted  className="rounded-lg w-full h-full object-cover">
     <source src={video}  type="video/mp4" />Your browser does not support the video tag. </video>
         
         </div>
-        <div className="bg-black bg-grey-2 rounded-lg p-6 flex items-center justify-center">
+        <div className="bg-black  rounded-lg p-6 flex items-center justify-center">
           {/* Animation or any other content */}
           <div className="text-center">
             <h2 className="text-2xl font-bold mb-4">Security. Powerful enforcement.</h2>
@@ -164,7 +170,7 @@ const Home = () => {
       </div>
     </div>
     </div>
-    <div className='bg-black h-64 bg-grey-2 text-white'>
+    <div className='bg-black h-64  text-white'>
     <section className=' ml-[168px]  text-md w-[904px] h-full lg:mt-[0px] md:mt-20 sm:mt-[53px] container gap-x-grid grid grid-cols-12'>
       <h2 className='col-span-5 col-start-2  text-4xl  font-light leading-snug lg:col-span-7  sm:col-span-full '>A complete solution for <br/> engineering teams of all sizes.</h2>
       <ul className=' col-span-9 h-[114px] cursor-pointer col-start-2 mt-15 flex flex-wrap gap-6 lg:col-span-11 md:mt-8 md:gap-5 sm:col-span-full sm:mt-7 sm:gap-3 xs:gap-2.5'>
@@ -200,7 +206,7 @@ const Home = () => {
     </section>
     </div>
     
-    <div className='flex bg-grey-2 flex-col min-h-screen  bg-black text-white gap-y-4 md:gap-y-3.5 sm:gap-y-3 w-full'>
+    <div className='flex  flex-col min-h-screen  bg-black text-white gap-y-4 md:gap-y-3.5 sm:gap-y-3 w-full'>
       <div className='ml-44 mt-52 w-full h-full'>
   <span className='font-medium  tracking-wide text-blue-400 text-lg mb-2 opacity-90'>Pipelines</span>
   <div className='flex justify-between items-center'>
@@ -209,9 +215,9 @@ const Home = () => {
     <p className='max-w-[490px]  font-light opacity-80 text-grey-70 md:text-[20px]'>Gitness provides a fully integrated CI/CD engine that is <br/> big on features and light on learning curve.</p>
   </div>
 
-  <div className='bg-grey-2 mt-4'>
+  <div className=' mt-4'>
 <div className='col-span-full  mt-16 lg:mt-14 md:mt-11 sm:mt-8'>
-  <div className='border-glow relative overflow-hidden bg-grey-2 bg-pipelines ml-[67px] pb-[98px] pl-14 pt-[104px] lg:pb-[72px] lg:pl-[58px] lg:pt-24 md:py-[45px] md:pl-11 sm:min-h-[488px] sm:px-5 sm:pb-4.5 sm:pt-5'>
+  <div className='border-glow relative overflow-hidden  bg-pipelines ml-[67px] pb-[98px] pl-14 pt-[104px] lg:pb-[72px] lg:pl-[58px] lg:pt-24 md:py-[45px] md:pl-11 sm:min-h-[488px] sm:px-5 sm:pb-4.5 sm:pt-5'>
        <div className='relative pl-[142px]  z-30'>
        
         <p className='pipelines-title relative mb-5 ml-[-141px] max-w-[300px] pb-3 font-titles  text-[88px] font-bold leading-none tracking-wide lg:text-[72px] md:mb-4 md:max-w-[299px] md:pb-3 md:text-[56px] sm:mb-4 sm:max-w-none sm:pb-2 sm:text-[52px] xs:text-[48px]'>Build.<br/>Test. <br/>Deploy.</p>
@@ -231,7 +237,7 @@ const Home = () => {
 </div>
 
 {/* two container */}
-<div className="  bg-grey-2  text-white h-[480px] flex items-center justify-center p-12 space-x-16">
+<div className="    text-white h-[480px] flex items-center justify-center p-12 space-x-16">
   <div className="border-glow col-span-6 mt-8 grid grid-cols-1 grid-rows-1 overflow-hidden  lg:mt-6 md:mt-4.5 sm:col-span-full bg-gray-800 sm:mt-4 w-full h-full rounded-lg  flex-col items-center justify-center p-4">
     <div className="flex items-start justify-center w-full">
     <img  alt="this is vaild" src={git}className='absolute h-full w-full left-0 top-0 right-0 bottom-0 text-transparent'></img>
@@ -266,7 +272,7 @@ const Home = () => {
 </div>
 
 
-<section className="py-[400px] bg-grey-2 lg:py-[315px] md:py-[270px] sm:py-36 xs:py-28 relative overflow-hidden">
+<section className="py-[400px]  lg:py-[315px] md:py-[270px] sm:py-36 xs:py-28 relative overflow-hidden">
 <div className='container gap-x-grid grid grid-cols-12'>
   <h2 className="col-span-7 col-start-2 ml-32 pb-10 pl-2 font-titles text-[100px] font-semibold leading-none text-white lg:col-span-8 lg:col-start-1 lg:text-[80px] md:col-span-11 md:pb-8 md:text-[72px] sm:col-span-full sm:pb-7 sm:text-[56px] xs:text-[48px]">Your Code <br/> Your Language <br/> Your Platform</h2>
   <p className='col-span-7 col-start-2 ml-32 max-w-[623px] text-[24px] font-light lg:col-span-8 lg:col-start-1 md:col-span-9 md:text-[20px] text-white sm:col-span-full'>Packing the power of robust code hosting, seamless collaboration through code reviews, and flexible pipelines for any language. All with the security and governance policies developers need to write and deliver code with confidence.</p>
@@ -288,7 +294,7 @@ const Home = () => {
 </div>
  </section>
 
- <section className='mt-1 bg-grey-2 lg:mt-12 md:mt-2.5 top-[-48px] sm:mt-0 relative overflow-hidden'>
+ <section className='mt-1  lg:mt-12 md:mt-2.5 top-[-48px] sm:mt-0 relative overflow-hidden'>
   <header className='container ml-[20px] top-[129px] relative z-10 grid grid-cols-12 gap-y-4 md:gap-y-3.5 sm:gap-y-3'>
     <span className='col-span-full text-center font-medium  tracking-wide leading-normal text-orange-500 opacity-80'>Performance</span>
     <h3 className='col-span-6 col-start-4 text-center text-white text-[64px] font-bold leading-normal tracking-tight  opacity-90 lg:text-[56px] md:col-span-8 md:col-start-3 md:text-[44px] sm:col-span-full sm:text-[36px] xs:text-[32px]'>Up to 4x faster <br/> pipeline execution</h3>
@@ -305,7 +311,7 @@ const Home = () => {
 
  </section>
 
-<section className=' bg-grey-2 mt-12 lg:mt-9 relative top-[-84px] md:mt-12 sm:mt-14 container max-w-[1343px] gap-x-2.5 grid grid-cols-12 gap-y-[72px] lg:gap-y-14 md:gap-y-11 sm:gap-y-8'>
+<section className='  mt-12 lg:mt-9 relative top-[-84px] md:mt-12 sm:mt-14 container max-w-[1343px] gap-x-2.5 grid grid-cols-12 gap-y-[72px] lg:gap-y-14 md:gap-y-11 sm:gap-y-8'>
 <header className='col-span-8 col-start-2 ml-[173px] flex flex-col items-start gap-4 lg:col-span-12 lg:col-start-1 md:gap-4 sm:gap-3'>
   <span className='text-[16px] font-medium leading-normal tracking-wide text-[#b2c6ff] opacity-100'>YAML </span>
   <h2 className=' text-[64px] text-white font-semibold leading-normal tracking-wider lg:text-[56px] md:text-[44px] sm:text-[36px] xs:text-[32px]'>Templatize  <br/> and standardize</h2>
@@ -422,10 +428,29 @@ const Home = () => {
 </section>
  
  <section className='-mb-20  bg-grey-3 mt-60 lg:mt-[200px] md:mt-[152px] sm:-mb-16 sm:mt-32 xs:mt-28 relative overflow-hidden after:container after:absolute after:bottom-20 after:left-1/2 after:h-px after:-translate-x-1/2 after:bg-white/80 after:mix-blend-overlay sm:after:bottom-16 sm:after:max-w-[calc(100%-2rem)] '>
-  <header className=''>
-    <h2 className='container relative z-10 text-center'>Setup Gitness in 30 seconds</h2>
-    <p className='font-titles text-48 font-bold leading-1.125 tracking-wide opacity-90 lg:text-44 md:text-40 sm:text-32 xs:mx-auto xs:max-w-[200px] xs:text-28'>Install with a single Docker command. Lightweight enough to run on a $4 Digital Ocean droplet.</p>     
+  <header className='container ml-10 relative z-10 text-center'>
+    <h2 className='font-titles text-[48px] font-bold leading-[1.125] tracking-wide opacity-90 lg:text-[44px] md:text-40 sm:text-[32px] xs:mx-auto xs:max-w-[200px] xs:text-[28px]'>Setup Gitness in 30 seconds</h2>
+    <p className='mx-auto mt-4 max-w-md text-[20px] font-semibold text-gray-400 md:mt-3.5 md:text-[16px]'>Install with a single Docker command. Lightweight enough to run on a $4 Digital Ocean droplet.</p>     
   </header>
+  <span className='absolute left-1/2 top-0 h-full w-px' aria-hidden="true"></span>
+  <div className='relative left-1/2 z-0 -ml-px -mt-[207px] w-[1727px] -translate-x-1/2 lg:-mb-1 lg:-mt-[203px] md:-mb-4 md:-mt-[183px] md:w-[1536px] sm:-mb-[110px]  sm:-mt-[187px] '>
+    <div className='will-change-all absolute left-1/2 top-[250px] z-10 -translate-x-1/2 rounded-full bg-black px-0.5 transition-opacity duration-[8s] md:top-[222px] !opacity-100'>
+     <a href='www.google.com' className='z-0 inline-flex items-center justify-center  duration-300 text-grey-94 hover:text-grey-80 transition-shadow  gap-2 rounded-full bg-white h-11 px-[22px] text-16 font-medium leading-snug tracking-tighter !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:text-14 md:h-10 md:px-4.5'>Get started
+     <svg xmlns="http://www.w3.org/2000/svg" width="6" height="12" fill="none" class="mt-px" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="m1 1 4 4-4 4"></path></svg>
+     </a>
+    </div>
+    <span className='noise absolute left-0 top-0 h-full w-full opacity-[0.02]'></span>
+    <div className='aspect-[1.5415] [&_canvas]:!h-auto [&_canvas]:!w-full'>
+      <div className='w-3px h-9px'>
+          <img alt=" ok"  src={y4}></img>
+          <img alt=" ok" className='mt-[-782px] w-[186px] ml-[675px]' src={y1}></img>
+          
+  
+        
+      </div>
+    </div>
+    
+  </div>
  </section>
 
   </>

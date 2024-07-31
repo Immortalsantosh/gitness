@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,7 +10,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} */
+body{
+  @apply bg-[rgb(7_7_9_/_var(--tw-bg-opacity))] text-[rgb(255_255_255_/_var(--tw-text-opacity))];
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -181,7 +195,7 @@ video {
   @apply bg-transparent;
 }
 
-bg-grey-3 {
+.bg-grey-3 {
   @apply bg-[rgb(7_7_9_/_var(--tw-bg-opacity))] text-[rgb(255_255_255_/_var(--tw-text-opacity))];
   --tw-bg-opacity: 1;
   --tw-text-opacity: 1;
@@ -195,3 +209,22 @@ bg-grey-3 {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
 }
+
+.-translate-x-1\/2,
+.-translate-x-px {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+}
+
+/* .transition-shadow {
+  @apply transition-shadow ease-[cubic-bezier(.4,0,0.2,1)] duration-[0.15s];
+}
+shadow-\[0_6px_16px_rgba\(255\2c 255\2c 255\2c \.2\)\] {
+  @apply shadow-[var(--tw-ring-offset-shadow,0_0_#0000),var(--tw-ring-shadow,0_0_#0000),var(--tw-shadow)];
+  --tw-shadow: 0 6px 16px hsla(0, 0%, 100%, 0.2);
+  --tw-shadow-colored: 0 6px 16px var(--tw-shadow-color);
+} */
