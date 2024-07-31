@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     
-      <header className="h-12  bg-grey-2 bg-black w-full  z-40">
+      <header className="h-12   bg-black w-full  z-40">
         <div className="h-full container mx-auto flex items-center px-4 justify-between ">
           <div className="">
             <Link to={"/"}>

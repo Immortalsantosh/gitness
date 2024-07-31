@@ -5,8 +5,8 @@ import check from "../assests/icons/check.png";
 
 const Footer = () => {
   return (
-   <footer className='mt-auto  h-12  bg-grey-2 bg-black w-full  z-40 relative flex items-center justify-between sm:h-16'>
-   <div className="h-full container mx-auto flex items-center px-4 justify-between ">
+   <footer className='mt-auto  h-12   bg-black w-full  z-40 relative flex items-center justify-between sm:h-16'>
+   <div className="h-full container mx-auto flex items-center px-4  ml-[50px] justify-between ">
           <div className="">
             <Link to={"/"}>
               <Logo h={24} w={107} />

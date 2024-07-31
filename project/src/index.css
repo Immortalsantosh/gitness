@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 } */
 body{
-  @apply bg-[rgb(7_7_9_/_var(--tw-bg-opacity))] text-[rgb(255_255_255_/_var(--tw-text-opacity))];
+  @apply bg-black text-[rgb(255_255_255_/_var(--tw-text-opacity))];
   --tw-bg-opacity: 1;
   --tw-text-opacity: 1;
   -webkit-font-smoothing: antialiased;
@@ -23,6 +23,7 @@ body{
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
 }
 
 
@@ -143,12 +144,12 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   @apply left-[calc(50%_+_187px)];
 }
 
-.ok {
+/* .ok {
   background-position: 50%;
   background-repeat: repeat;
   background-image: url(./assests/bg/ok.png);
   background-size: 140px 100px;
-}
+} */
 
 .bg-template-card {
   @apply bg-[radial-gradient(121.65%_100%_at_32.68%_0,#3c4155_0,rgba(60,65,85,0.18)_32.49%,rgba(60,65,85,0)_51.34%),radial-gradient(91.41%_43.04%_at_50%_0,#1a1c24_20.67%,rgba(26,28,36,0)_100%),radial-gradient(69.96%_25.89%_at_50%_100%,#15171e_22.77%,rgba(19,21,27,0)_100%)];
@@ -167,7 +168,7 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   @apply flex flex-col z-[1] relative text-center items-center mx-auto my-0;
 }
 .section-header-title-h6 {
-  @apply text-[28px] leading-8;
+  @apply text-[27px] leading-8;
 }
 .section-header-title {
   text-shadow: 0 2px 16px rgba(174, 207, 242, 0.24);
@@ -228,3 +229,9 @@ shadow-\[0_6px_16px_rgba\(255\2c 255\2c 255\2c \.2\)\] {
   --tw-shadow: 0 6px 16px hsla(0, 0%, 100%, 0.2);
   --tw-shadow-colored: 0 6px 16px var(--tw-shadow-color);
 } */
+
+/* .noise2 {
+  background-image: url(./assests/bg/abcde.png);
+  overflow:hidden ;
+} */
+

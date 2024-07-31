@@ -12,17 +12,15 @@ import Image2 from '../assests/image/male-72.jpg'
 
 import cube from '../assests/videos/bg.mp4'
 import video from '../assests/videos/coding.mp4'
+import integration from '../assests/videos/integrations.mp4'
 
 import light1 from '../assests/bg/light3.png'
-import x from '../assests/bg/image02.jpg'
 
-import y from '../assests/bg/man.png'
+import x from '../assests/bg/4x.png'
+
+
 import y1 from '../assests/bg/start.png'
-import y2 from '../assests/bg/tv.png'
-import y3 from '../assests/bg/abcd.png'
 import y4 from '../assests/bg/man2.png'
-import y5 from '../assests/bg/abcde.png'
-
 import git from '../assests/bg/github.webp'
 
 
@@ -83,16 +81,8 @@ const Home = () => {
       </div>
       </div>
     </div>
-    <video autoPlay loop muted className=' object-contain  video h-fit bg-transparent pb-20 border-none w-[500px]  pt-[20px] left-0 top-0 ' src={cube}></video>
-    {/* <Lottie animationData={animationData} className='bg-transparent pb-20 border-none w-[500px]  pt-[50px]'/> */}
-    {/* <div className='relative order-1 min-h-[225px] min-w-[225px] overflow-hidden grayscale md:hidden md:overflow-auto'>
-      <video autoPlay loop muted className='absolute left-0 top-0 h-[225px] w-[225px]' src={cube}></video>
-    </div> */}
-    {/* <div className='relative order-1 transform-gpu grayscale md:order-2 md:w-[700px] hidden items-center justify-center lg:flex lg:animate-[open-scale-up-fade_1.5s_ease-in-out] before:from-green-5/5 before:to-yellow-6/25 before:absolute before:left-0 before:top-0 before:block before:h-full before:w-full before:rounded-full before:bg-gradient-to-br before:blur-[100px]'>
-     <div className='relative animate-webgl-scale-in-fade w-full h-full'>
-
-     </div>
-    </div> */}
+    <video autoPlay loop muted className=' mt-[-112px] video h-fit bg-transparent pb-20 border-none w-[500px]  pt-[20px] left-0 top-0 ' src={cube}></video>
+   
   </div>
   
   <div className="border-glow   bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden  bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
@@ -238,6 +228,22 @@ const Home = () => {
 
 {/* two container */}
 <div className="    text-white h-[480px] flex items-center justify-center p-12 space-x-16">
+<div className="border-glow col-span-6 mt-8 grid grid-cols-1 grid-rows-1 overflow-hidden  lg:mt-6 md:mt-4.5 sm:col-span-full bg-gray-800 sm:mt-4 w-full h-full rounded-lg  flex-col items-center justify-center p-4">
+    <div className="flex items-start justify-center w-full">
+    <video  autoPlay loop muted  src={integration} className=' absolute h-full w-full left-0 top-[-45px] right-0 bottom-0 text-transparent '></video>
+    </div>
+    <div className='section-header'>
+      <h6 className='section-header-title section-header-title-h6'>
+        <span>One-click migrations</span>
+      </h6>
+      <p className="text-gray-400 text-center"> With a single click, Gitness can automatically migrate code repositories and pipelines from GitHub, GitLab, Bitbucket, Circle, and more..</p>
+    </div>
+   
+    {/* <p className="text-gray-400 text-center">
+      Publish, deploy, notify, report - Gitness integrates with your favorite tools. Create custom integrations with ease and share with the community.
+    </p> */}
+  </div>
+
   <div className="border-glow col-span-6 mt-8 grid grid-cols-1 grid-rows-1 overflow-hidden  lg:mt-6 md:mt-4.5 sm:col-span-full bg-gray-800 sm:mt-4 w-full h-full rounded-lg  flex-col items-center justify-center p-4">
     <div className="flex items-start justify-center w-full">
     <img  alt="this is vaild" src={git}className='absolute h-full w-full left-0 top-0 right-0 bottom-0 text-transparent'></img>
@@ -248,22 +254,9 @@ const Home = () => {
       </h6>
       <p className="section-header-description">Host your own frontend.</p>
     </div>
-   
-    {/* <p className="text-gray-400 text-center">
-      Publish, deploy, notify, report - Gitness integrates with your favorite tools. Create custom integrations with ease and share with the community.
-    </p> */}
   </div>
 
-  <div className="w-full h-full bg-gray-800 rounded-lg flex flex-col items-center justify-center p-4">
-    {/* SVG or Image for Migrations */}
-    <div className="mb-4">
-      <img src="/path/to/migrations-icon.svg" alt="Migrate" className="w-16 h-16" />
-    </div>
-    <h3 className="text-white text-xl font-bold mb-2 text-center">One-click migrations</h3>
-    <p className="text-gray-400 text-center">
-      With a single click, Gitness can automatically migrate code repositories and pipelines from GitHub, GitLab, Bitbucket, Circle, and more.
-    </p>
-  </div>
+  `
 </div>
 
 
@@ -272,7 +265,7 @@ const Home = () => {
 </div>
 
 
-<section className="py-[400px]  lg:py-[315px] md:py-[270px] sm:py-36 xs:py-28 relative overflow-hidden">
+<section className="py-[400px] bg-black lg:py-[315px] md:py-[270px] sm:py-36 xs:py-28 relative overflow-hidden">
 <div className='container gap-x-grid grid grid-cols-12'>
   <h2 className="col-span-7 col-start-2 ml-32 pb-10 pl-2 font-titles text-[100px] font-semibold leading-none text-white lg:col-span-8 lg:col-start-1 lg:text-[80px] md:col-span-11 md:pb-8 md:text-[72px] sm:col-span-full sm:pb-7 sm:text-[56px] xs:text-[48px]">Your Code <br/> Your Language <br/> Your Platform</h2>
   <p className='col-span-7 col-start-2 ml-32 max-w-[623px] text-[24px] font-light lg:col-span-8 lg:col-start-1 md:col-span-9 md:text-[20px] text-white sm:col-span-full'>Packing the power of robust code hosting, seamless collaboration through code reviews, and flexible pipelines for any language. All with the security and governance policies developers need to write and deliver code with confidence.</p>
@@ -294,16 +287,17 @@ const Home = () => {
 </div>
  </section>
 
- <section className='mt-1  lg:mt-12 md:mt-2.5 top-[-48px] sm:mt-0 relative overflow-hidden'>
+ <section className='mt-1 bg-black lg:mt-12 md:mt-2.5 top-[-48px] sm:mt-0 relative overflow-hidden'>
   <header className='container ml-[20px] top-[129px] relative z-10 grid grid-cols-12 gap-y-4 md:gap-y-3.5 sm:gap-y-3'>
     <span className='col-span-full text-center font-medium  tracking-wide leading-normal text-orange-500 opacity-80'>Performance</span>
     <h3 className='col-span-6 col-start-4 text-center text-white text-[64px] font-bold leading-normal tracking-tight  opacity-90 lg:text-[56px] md:col-span-8 md:col-start-3 md:text-[44px] sm:col-span-full sm:text-[36px] xs:text-[32px]'>Up to 4x faster <br/> pipeline execution</h3>
-    <p className='col-span-full mx-auto max-w-[670px] text-center text-18 font-light text-grey-70 md:text-16'>Reduce pipeline execution up to 90% with intelligent test selection and caching.<br/> Powered by advanced instrumentation and call graph analysis.</p>
+    <p className='col-span-full mx-auto max-w-[670px] text-center text-[18px] font-light text-grey-70 md:text-16'>Reduce pipeline execution up to 90% with intelligent test selection and caching.<br/> Powered by advanced instrumentation and call graph analysis.</p>
   </header>
     <span className='absolute -top-0 left-1/2 h-full w-px' aria-hidden="true"></span>
-    <div className='relative left-1/2 z-0 -mb-[180px] -mt-[108px] w-[1370px] -translate-x-1/2 lg:-mb-[152px] lg:-mt-24 lg:w-[1224px] md:-mb-[118px] md:-mt-[42px] md:w-[930px] sm:-mb-[88px] sm:w-[120%] sm:min-w-[600px] xs:-mt-4 xs:w-auto  aspect-[1.58127] [&_canvas]:!h-auto [&_canvas]:!w-full' aria-hidden="true">
+    <div className='noise2 relative left-1/2 z-0 -mb-[180px] -mt-[108px] w-[1370px] -translate-x-1/2 lg:-mb-[152px] lg:-mt-24 lg:w-[1224px] md:-mb-[118px] md:-mt-[42px] md:w-[930px] sm:-mb-[88px] sm:w-[120%] sm:min-w-[600px] xs:-mt-4 xs:w-auto  aspect-[1.58127] [&_canvas]:!h-auto [&_canvas]:!w-full' aria-hidden="true">
     <div className='w-full h-full'>
-      <img  alt="this is vaild" src={x}className='max-w-full ml-[72px] mt-[170px]'></img>
+      {/* <img  alt="this is vaild" src={x}className='max-w-full ml-[72px] mt-[170px]'></img> */}
+      <img  alt="this is vaild" src={x} className=' align-top w-[1370px] h-[866px] ml-[10px] mt-[164px]'></img>
       
     </div>
      <span className='ok absolute left-0 top-0 h-full w-full opacity-[0.02]'></span>
@@ -311,8 +305,8 @@ const Home = () => {
 
  </section>
 
-<section className='  mt-12 lg:mt-9 relative top-[-84px] md:mt-12 sm:mt-14 container max-w-[1343px] gap-x-2.5 grid grid-cols-12 gap-y-[72px] lg:gap-y-14 md:gap-y-11 sm:gap-y-8'>
-<header className='col-span-8 col-start-2 ml-[173px] flex flex-col items-start gap-4 lg:col-span-12 lg:col-start-1 md:gap-4 sm:gap-3'>
+<section className='  mt-1 bg-black lg:mt-80 relative top-[-84px] md:mt-12 sm:mt-14  max-w-[1343px] gap-x-2.5 grid grid-cols-12 gap-y-[72px] lg:gap-y-14 md:gap-y-11 sm:gap-y-8'>
+<header className='col-span-8 col-start-2 ml-[173px] flex flex-col items-start gap-0 lg:col-span-12 lg:col-start-1 md:gap-4 sm:gap-3'>
   <span className='text-[16px] font-medium leading-normal tracking-wide text-[#b2c6ff] opacity-100'>YAML </span>
   <h2 className=' text-[64px] text-white font-semibold leading-normal tracking-wider lg:text-[56px] md:text-[44px] sm:text-[36px] xs:text-[32px]'>Templatize  <br/> and standardize</h2>
   <div className='flex items-end self-stretch sm:flex-col sm:items-start'>
@@ -427,7 +421,7 @@ const Home = () => {
 </div>
 </section>
  
- <section className='-mb-20  bg-grey-3 mt-60 lg:mt-[200px] md:mt-[152px] sm:-mb-16 sm:mt-32 xs:mt-28 relative overflow-hidden after:container after:absolute after:bottom-20 after:left-1/2 after:h-px after:-translate-x-1/2 after:bg-white/80 after:mix-blend-overlay sm:after:bottom-16 sm:after:max-w-[calc(100%-2rem)] '>
+ <section className='-mb-20  bg-black  mt-60 lg:mt-[200px] md:mt-[152px] sm:-mb-16 sm:mt-32 xs:mt-28 relative overflow-hidden after:container after:absolute after:bottom-20 after:left-1/2 after:h-px after:-translate-x-1/2 after:bg-white/80 after:mix-blend-overlay sm:after:bottom-16 sm:after:max-w-[calc(100%-2rem)] '>
   <header className='container ml-10 relative z-10 text-center'>
     <h2 className='font-titles text-[48px] font-bold leading-[1.125] tracking-wide opacity-90 lg:text-[44px] md:text-40 sm:text-[32px] xs:mx-auto xs:max-w-[200px] xs:text-[28px]'>Setup Gitness in 30 seconds</h2>
     <p className='mx-auto mt-4 max-w-md text-[20px] font-semibold text-gray-400 md:mt-3.5 md:text-[16px]'>Install with a single Docker command. Lightweight enough to run on a $4 Digital Ocean droplet.</p>     
