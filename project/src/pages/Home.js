@@ -6,6 +6,8 @@ import CircularImage from './CircularImage'
 
 import pipeline from '../assests/bg/download.png'
 
+import security from '../assests/bg/cy.jpg'
+
 import shape from '../assests/bg/image.jpeg'
 
 import Image from '../assests/image/male-24.jpg'
@@ -15,6 +17,7 @@ import Image2 from '../assests/image/male-72.jpg'
 import cube from '../assests/videos/bg.mp4'
 import video from '../assests/videos/coding.mp4'
 import integration from '../assests/videos/integrations.mp4'
+// import Snake from '../assests/videos/snake.mp4'
 
 import light1 from '../assests/bg/light3.png'
 
@@ -87,14 +90,13 @@ const Home = () => {
    
   </div>
 
-  {/* //video */}
+     
+      <div className=".bg-grey-2 mx-auto">
+          <img  alt="this is shape" src={shape} className='w-[1980px] h-[960px] rounded-md  object-contain mt-[-160px] bg-black'></img>
+      </div>
   
-    {/* <div className='absolute left-[calc(50%+65px)] top-[336px] w-[1480px] max-w-none -translate-x-1/2 lg:left-[calc(50%+21px)] lg:top-[359px] lg:w-[1053px] md:left-[calc(50%+60px)] md:top-[238px] md:w-[915px] '>
-      <img  alt="this is shape" src={shape} className='w-[1480px] h-[740px]'></img>
-      <span className='noise absolute left-0 top-0 h-full w-full opacity-[0.04]'></span>
-    </div> */}
   
-  <div className="border-glow   bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden  bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
+  <div className="border-glow  .bg-grey-2 bg-black text-white relative col-span-10 col-start-2 mt-[50px] min-h-[380px] overflow-hidden  bg-git-experience pl-[72px] pt-[68px] lg:col-span-full lg:min-h-[360px] lg:pl-[58px] lg:pt-20 md:mt-0 md:min-h-[306px] md:pl-11 md:pt-16 sm:col-span-full sm:mt-8 sm:min-h-[400px] sm:px-5 sm:pb-4 sm:pt-5">
         
   <div className='flex flex-col ml-16 gap-y-4 md:gap-y-3.5 sm:gap-y-3 w-full'>
   <span className='font-medium  tracking-wide text-blue-400 text-lg mb-2 opacity-90'> Code Hosting</span>
@@ -158,13 +160,9 @@ const Home = () => {
     <source src={video}  type="video/mp4" />Your browser does not support the video tag. </video>
         
         </div>
-        <div className="bg-black  rounded-lg p-6 flex items-center justify-center">
-          {/* Animation or any other content */}
-          <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">Security. Powerful enforcement.</h2>
-            <p className="text-lg">Built on Open Policy Agent.</p>
-            {/* Add your animation here */}
-          </div>
+        <div className="bg-black  rounded-md p-6 flex items-center justify-center">
+         <img src={security} className='rounded-md'></img>
+         
         </div>
       </div>
     </div>
@@ -436,8 +434,8 @@ const Home = () => {
     <p className='mx-auto mt-4 max-w-md text-[20px] font-semibold text-gray-400 md:mt-3.5 md:text-[16px]'>Install with a single Docker command. Lightweight enough to run on a $4 Digital Ocean droplet.</p>     
   </header>
   <span className='absolute left-1/2 top-0 h-full w-px' aria-hidden="true"></span>
-  <div className='relative left-1/2 z-0 -ml-px -mt-[207px] w-[1727px] -translate-x-1/2 lg:-mb-1 lg:-mt-[203px] md:-mb-4 md:-mt-[183px] md:w-[1536px] sm:-mb-[110px]  sm:-mt-[187px] '>
-    <div className='will-change-all absolute left-1/2 top-[250px] z-10 -translate-x-1/2 rounded-full bg-black px-0.5 transition-opacity duration-[8s] md:top-[222px] !opacity-100'>
+  <div className='relative  left-1/2 z-0 -ml-px -mt-[207px] w-[1727px] -translate-x-1/2 lg:-mb-1 lg:-mt-[203px] md:-mb-4 md:-mt-[183px] md:w-[1536px] sm:-mb-[110px]  sm:-mt-[187px] '>
+    <div className='will-change-all bg-black absolute left-1/2 top-[250px] z-10 -translate-x-1/2 rounded-full bg-black px-0.5 transition-opacity duration-[8s] md:top-[222px] !opacity-100'>
      <a href='www.google.com' className='z-0 inline-flex items-center justify-center  duration-300 text-grey-94 hover:text-grey-80 transition-shadow  gap-2 rounded-full bg-white h-11 px-[22px] text-16 font-medium leading-snug tracking-tighter !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:text-14 md:h-10 md:px-4.5'>Get started
      <svg xmlns="http://www.w3.org/2000/svg" width="6" height="12" fill="none" class="mt-px" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="m1 1 4 4-4 4"></path></svg>
      </a>
