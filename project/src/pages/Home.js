@@ -161,7 +161,7 @@ const Home = () => {
         
         </div>
         <div className="bg-black  rounded-md p-6 flex items-center justify-center">
-         <img src={security} className='rounded-md'></img>
+         <img alt="ok" src={security} className='rounded-md'></img>
          
         </div>
       </div>
