@@ -14,7 +14,7 @@ import Image from '../assests/image/male-24.jpg'
 import Image1 from '../assests/image/male-70.jpg'
 import Image2 from '../assests/image/male-72.jpg'
 
-import cube from '../assests/videos/bg.mp4'
+import cube from '../assests/videos/bg.mp4'st
 import video from '../assests/videos/coding.mp4'
 import integration from '../assests/videos/integrations.mp4'
 // import Snake from '../assests/videos/snake.mp4'
