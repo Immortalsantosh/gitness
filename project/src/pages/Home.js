@@ -435,7 +435,7 @@ const Home = () => {
   </header>
   <span className='absolute left-1/2 top-0 h-full w-px' aria-hidden="true"></span>
   <div className='relative  left-1/2 z-0 -ml-px -mt-[207px] w-[1727px] -translate-x-1/2 lg:-mb-1 lg:-mt-[203px] md:-mb-4 md:-mt-[183px] md:w-[1536px] sm:-mb-[110px]  sm:-mt-[187px] '>
-    <div className='will-change-all bg-black absolute left-1/2 top-[250px] z-10 -translate-x-1/2 rounded-full bg-black px-0.5 transition-opacity duration-[8s] md:top-[222px] !opacity-100'>
+    <div className='will-change-all bg-black absolute left-1/2 top-[250px] z-10 -translate-x-1/2 rounded-full px-0.5 transition-opacity duration-[8s] md:top-[222px] !opacity-100'>
      <a href='www.google.com' className='z-0 inline-flex items-center justify-center  duration-300 text-grey-94 hover:text-grey-80 transition-shadow  gap-2 rounded-full bg-white h-11 px-[22px] text-16 font-medium leading-snug tracking-tighter !text-black shadow-[0_6px_16px_rgba(255,255,255,.2)] hover:shadow-[0_6px_20px_rgba(255,255,255,.4)] md:text-14 md:h-10 md:px-4.5'>Get started
      <svg xmlns="http://www.w3.org/2000/svg" width="6" height="12" fill="none" class="mt-px" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="m1 1 4 4-4 4"></path></svg>
      </a>
